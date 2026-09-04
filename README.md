@@ -21,15 +21,6 @@ more of it, and to score a pipeline run against it is in this repo.
 The markdown in `input/` is line-numbered on purpose: every value in the gold traces
 back to a line in it, and every finding was recorded against a line number.
 
-## What is in the set
-
-| patent | reactions | compounds | pathways | state |
-|---|---|---|---|---|
-| CN109678767A | 45 | 58 | 14 | reactions + compounds verified |
-| CN112645853A | 55 | 56 | 32 | reactions + compounds verified |
-| WO2022024094A1 | 20 | 52 | 16 | reactions + compounds verified |
-| WO2024109718A1 | 69 | 131 | 23 | reactions + compounds verified |
-
 Per-patent notes, the conventions the files follow, the structure layer and what is
 deliberately left out are in [data/README.md](data/README.md).
 
