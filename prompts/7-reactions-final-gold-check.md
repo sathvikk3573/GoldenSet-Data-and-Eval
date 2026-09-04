@@ -19,13 +19,14 @@ every field from the patent.
 3. **Take one record and understand what it is about.** What reaction is this? What
    reacts, what forms, under what conditions?
 
-4. **Then read the patent `.md`, keeping that specific record in mind**, and understand
-   what happened for that record in the patent. Read it properly and in depth, line by
-   line, the whole file. Read carefully, as defined below under "What 'read carefully'
-   actually means", and do that on every pass. A line can concern your record without naming it: "the salt
-   prepared in step (1)", "the same procedure as Example 1", a structure on an arrow,
-   or the line that fixes what R or M stands for. Read for anything related, not only
-   for direct mentions.
+4. **Then read the patent `.md`, keeping that specific record in mind** — its own section
+   and every section it cross-references, using the `<!-- page ... :: <section_type> -->`
+   markers as boundaries, rather than the whole file for every record (see "Read the
+   patent for every record" below). Read carefully, as defined below under "What 'read
+   carefully' actually means", and do that on every pass. A line can concern your record
+   without naming it: "the salt prepared in step (1)", "the same procedure as Example 1",
+   a structure on an arrow, or the line that fixes what R or M stands for. Read for
+   anything related, not only for direct mentions.
 
 5. **Then go through every field of that record, one at a time, in order**, starting
    from `patent_id`, `reaction_id`, `section_label` and on to the end. For each field:
@@ -84,9 +85,12 @@ and a short script does perfectly. Use both: read for meaning, compute for cover
 
 ## Read the patent for every record
 
-You must read the `.md` for every record, as this pipeline is designed to do. If there
-are 55 records, that is 55 readings. Do not carry over an impression from the last
-record and assume it still holds.
+You must read the patent afresh for every record, as this pipeline is designed to do — if
+there are 55 records, that is 55 readings. But "read the patent" means the record's own
+section plus the sections it cross-references, not the whole file 55 times: on a large
+patent the whole-file-per-record read is where quality degrades and cost explodes. Chunk on
+the `<!-- page ... :: <section_type> -->` markers, and do not carry an impression from the
+last record over to this one — read this record's sections fresh.
 
 ## What "gold" has to mean by the end
 
@@ -139,8 +143,10 @@ This pass finishes the patent's `audit/` folder. Two obligations:
 1. **Bring `audit/reactions_audit.csv` up to date with the corrected file.** Every row
    you re-derive gets its Status settled: a value you corrected on this pass becomes
    `FIXED`, with the old value, the new value and the line number in "Problem, in
-   plain words". After this pass no row may describe a value the file no longer holds.
-   If a field you check has no row yet, add one, so the sheet covers the whole file.
+   plain words". Flush each row as you settle it — the sheet on disk is then your resume
+   point, so an interruption never costs more than the record in hand. After this pass no
+   row may describe a value the file no longer holds. If a field you check has no row yet,
+   add one, so the sheet covers the whole file.
 
 2. **Close every finding in `audit/findings.csv`.** For every reaction finding raised
    in Prompts 2 and 5 — every reactions row of `findings.csv` (including every

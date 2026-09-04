@@ -5,10 +5,11 @@ is that it is independent.
 
 ---
 
-Read the single `*-enriched-numbered.md` in `input/` line by line, in depth. Do not skip
-lines and do not skim the repetitive parts. Read carefully, as defined below under
-"What 'read carefully' actually means". Keep a running audit in your scratchpad as
-you read, so you have a reference you can point back to later.
+Read the single `*-enriched-numbered.md` in `input/` in depth — in section-sized chunks,
+not one giant end-to-end pass (see "Read in chunks, checkpoint to disk" below). Do not skip
+lines and do not skim the repetitive parts. Read carefully, as defined below under "What
+'read carefully' actually means". Keep a running ledger on disk as you read, so you always
+have a reference — and a resume point — to fall back to.
 
 Your job in this pass is one thing only: **decide how many genuine reactions,
 transformations or steps this patent describes, and where each one is.**
@@ -71,6 +72,31 @@ it is reading that also produces something that can be verified:
 Where a check can be made mechanically, make it mechanically. Counting, string
 matching and cross-record comparison are exactly the things a careful reader does worst
 and a short script does perfectly. Use both: read for meaning, compute for coverage.
+
+## Read in chunks, checkpoint to disk
+
+A large patent will not stay sharp in one context, and a long pass can be interrupted —
+context lost, a crash, a slip. Guard against both the same way: read in bounded,
+section-sized chunks, and write your ledger to disk as you finish each item, so the file on
+disk always knows where you were.
+
+- **Chunk by section, never by a fixed line count.** The `.md` is segmented by
+  `<!-- page ... :: <section_type> ... -->` markers and named sections — Claims, Summary,
+  Background, each Example, each Scheme. Take one section at a time; a line window cuts a
+  reaction in half, a section boundary never does. Show me the chunk plan before you read.
+- **Keep one ledger that grows across chunks, on disk.** Create `audit/` if it does not
+  exist and append to `audit/_reactions-identification.md` the moment you finish an item:
+  its line number, the transformation, its section, and every cross-reference ("same as
+  Example 11") resolved to the concrete line. This is a transient working file — it is your
+  resume point, and you delete it once the count is committed, so the finished `audit/`
+  stays clean.
+- **Resume from the ledger, never restart.** On start, if the ledger already exists, read
+  it, find the last section marked done, and continue from the next unread section.
+  Deduplicate by (section, line) so a resume never double-counts.
+- **Mark each section done.** After finishing a section, append `section <name>: done, N
+  transformations`. A missing done-marker is how you tell a half-read section from a
+  finished one; the final coverage check is simply that every section in the plan has one.
+
 
 ## What to give me at the end
 

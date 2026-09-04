@@ -10,13 +10,14 @@ your list is worthless. If you have already seen it, say so now.
 
 Follow these steps in order. Do not skip any.
 
-1. Open the single `*-enriched-numbered.md` in `input/` (there is exactly one).
-2. Read it line by line and understand what each line says. Read carefully, as defined
-   below under "What 'read carefully' actually means".
-3. Whenever you come across a compound, write it down in your scratchpad with its
-   line number.
-4. Move to the next line and repeat.
-5. Read the whole file this way, end to end, all 600 or more lines.
+1. Open the single `*-enriched-numbered.md` in `input/` (there is exactly one), and read
+   it in section-sized chunks — Claims, Summary, Background, each Example, each Scheme —
+   not one giant end-to-end pass (see "Read in chunks, checkpoint to disk" below).
+2. Read each chunk line by line and understand what each line says. Read carefully, as
+   defined below under "What 'read carefully' actually means".
+3. Whenever you come across a compound, append it to your on-disk ledger (below) with its
+   line number and section, before moving on.
+4. Move to the next line, then the next chunk, and repeat until every section is done.
 
 At the end, tell me how many compounds the patent mentions.
 
@@ -86,6 +87,29 @@ it is reading that also produces something that can be verified:
 Where a check can be made mechanically, make it mechanically. Counting, string
 matching and cross-record comparison are exactly the things a careful reader does worst
 and a short script does perfectly. Use both: read for meaning, compute for coverage.
+
+## Read in chunks, checkpoint to disk
+
+A large patent will not stay sharp in one context, and a long pass can be interrupted —
+context lost, a crash, a slip. Guard against both the same way: read in bounded,
+section-sized chunks, and write your ledger to disk as you finish each item, so the file on
+disk always knows where you were.
+
+- **Chunk by section, never by a fixed line count.** The `.md` is segmented by
+  `<!-- page ... :: <section_type> ... -->` markers and named sections — Claims, Summary,
+  Background, each Example, each Scheme. Take one section at a time.
+- **Keep one ledger that grows across chunks, on disk.** Create `audit/` if it does not
+  exist and append to `audit/_compounds-identification.md` the moment you find a compound:
+  its line number, name, section and bucket. This is a transient working file — it is your
+  resume point, and you delete it once the count is committed, so the finished `audit/`
+  stays clean.
+- **Resume from the ledger, never restart.** On start, if the ledger exists, read it, find
+  the last section marked done, and continue from the next unread section. Deduplicate by
+  (section, line) so a resume never double-counts a compound.
+- **Mark each section done**, `section <name>: done, N compounds`, so a half-read section
+  is visible; the final coverage check is that every section in the plan has a done-marker
+  and the language sweeps below have been run over every section.
+
 
 ## How to be sure you have not missed any
 

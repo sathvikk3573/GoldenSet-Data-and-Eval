@@ -16,10 +16,11 @@ Follow this exact flow. Do not skip any step.
 1. **Take the first compound object from `compounds.json`**, and work in file order:
    0, 1, 2, 3 and so on. Keep the index visible in everything you report.
 
-2. **Read the patent `.md` with respect to that compound**, line by line, end to end.
-   Read all of it, every line, not only the sections where you first find the compound.
-   Read carefully, as defined below under "What 'read carefully' actually means", and do
-   that on every pass.
+2. **Read the sections of the patent that bear on that compound** — every section where it
+   appears or is referred to indirectly — not the whole file per compound (see "Read by
+   section, checkpoint to disk" below). Do not read only the section where you first find
+   it. Read carefully, as defined below under "What 'read carefully' actually means", and
+   do that on every pass.
 
    Read it **properly and in depth, with that compound held in mind the whole way
    through**, asking of every line: does this say anything about my compound? Not
@@ -55,11 +56,11 @@ Follow this exact flow. Do not skip any step.
 
 8. **Continue for every compound in the file.**
 
-9. **Throughout, read the `.md` end to end each time**, all 600 or more lines. Do not
-   rely only on the sections where the compound first appears.
+9. **Do not fall back to reading only the section where the compound first appears** —
+   follow it into every section that mentions or refers to it, using the section markers.
 
-10. **When all compounds are done, go back to step 1** and do a final verification pass
-    over every object, checking that each was covered and each issue captured.
+10. **When all compounds are done, sweep the whole file once, section by section**, doing
+    a final verification that each object was covered and each issue captured.
 
 ## What "read carefully" actually means
 
@@ -118,9 +119,12 @@ reads prose. If it is only in prose, it is still a finding.
 
 ## The audit trail: `audit/compounds_audit.csv`
 
-This pass builds the compounds sheet of the patent's audit folder. Create `audit/`
-next to `input/` and `output/` if it does not exist, and build
-`audit/compounds_audit.csv` as you go.
+This pass builds the compounds sheet of the patent's audit folder. Create `audit/` next to
+`input/` and `output/` if it does not exist, and build `audit/compounds_audit.csv` as you
+go — **flushing each row to disk the moment you finish that field, not assembling the sheet
+at the end.** Written this way the CSV is also your checkpoint: if the context is lost or
+you blunder, reopen it, find the last (record index, field) it holds, and resume from the
+next field — never restart at compound 0.
 
 **One row per field checked, passes included.** A row that says OK is evidence the
 field was actually checked; a file that only lists failures cannot be told apart from
@@ -148,6 +152,24 @@ a file where most fields were never looked at. The columns, exactly:
 Related fields verified together from one passage may share a row (identity, quantity,
 melting point and NMR of one compound, say), but never collapse two compounds into one
 row.
+
+## Read by section, checkpoint to disk
+
+A large patent will not stay sharp in one context, and re-reading the whole file once per
+compound is both ruinously slow and where quality quietly degrades. Read by section, and
+let the audit CSV be your checkpoint.
+
+- **Read every section that mentions the compound or refers to it indirectly**, using the
+  `<!-- page ... :: <section_type> ... -->` markers as boundaries, rather than all 600+
+  lines per compound. Follow indirect references ("the starting material", "the salt from
+  step (1)", an R/M symbol) into their sections.
+- **The audit CSV is your resume point.** Because every row is flushed to disk as you go,
+  `audit/compounds_audit.csv` always shows the last field you verified; on any interruption
+  reopen it and continue from the next, never from the top.
+- **One whole-file sweep at the end, not per compound** — the final section-by-section
+  pass in step 10 is where you catch a compound named in a section none of your reads
+  reached.
+
 
 ## Rules for this pass
 

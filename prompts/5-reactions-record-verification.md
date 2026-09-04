@@ -22,8 +22,9 @@ that reaction, so the file can be called gold.
    reactants, products, conditions, workup? Understand it properly before you go
    looking.
 
-4. **Then, holding that record in mind, read the patent `.md` again, line by line, end
-   to end.** If the patent is 600 lines, read 600 lines. Read carefully, as defined
+4. **Then, holding that record in mind, read the sections of the patent that bear on it**
+   — its own section and every section it cross-references — not the whole file per
+   record (see "Read by section, checkpoint to disk" below). Read carefully, as defined
    below under "What 'read carefully' actually means", and do that on every pass.
 
    Read it **properly and in depth, with that record held in mind the whole way
@@ -53,8 +54,8 @@ that reaction, so the file can be called gold.
 7. **Then take the next object and repeat from step 2.** Do not stop after one record.
    Work through all of them, one after another.
 
-8. **When every record is done, go back to record 0** and do a final pass over the
-   whole file, checking that every record was covered and every issue was captured.
+8. **When every record is done, sweep the whole file once, section by section**, to
+   confirm every record was covered, every section was visited, and every issue captured.
 
 ## What "read carefully" actually means
 
@@ -113,7 +114,11 @@ finding.
 ## The audit trail: `audit/reactions_audit.csv`
 
 This pass produces the patent's audit folder. Create `audit/` next to `input/` and
-`output/` if it does not exist, and build `audit/reactions_audit.csv` as you go.
+`output/` if it does not exist, and build `audit/reactions_audit.csv` as you go —
+**flushing each row to disk the moment you finish that field, not assembling the sheet at
+the end.** Written this way the CSV is also your checkpoint: if the context is lost or you
+blunder, reopen it, find the last (record index, field) it holds, and resume from the next
+field — never restart at record 0.
 
 **One row per field checked, passes included.** A row that says OK is evidence the
 field was actually checked; a file that only lists failures cannot be told apart from
@@ -141,6 +146,24 @@ a file where most fields were never looked at. The columns, exactly:
 Related fields verified together from one passage may share a row (identity, quantity
 and yield of one product, say), but never collapse different compounds or different
 steps into one row.
+
+## Read by section, checkpoint to disk
+
+A large patent will not stay sharp in one context, and re-reading the whole file once per
+record is both ruinously slow and where quality quietly degrades. Read by section, and let
+the audit CSV be your checkpoint.
+
+- **Read the record's own section plus any section it points at**, using the
+  `<!-- page ... :: <section_type> ... -->` markers as boundaries — the charge is in the
+  Example, the range in the Claims, the symbol definition in a Scheme, so follow every
+  cross-reference ("the salt from step (1)", "same as Example 1") to its section rather
+  than reading all 600+ lines for each record.
+- **The audit CSV is your resume point.** Because every row is flushed to disk as you go,
+  `audit/reactions_audit.csv` always shows the last field you verified; on any interruption
+  reopen it and continue from the next, never from the top.
+- **One whole-file sweep at the end, not per record.** The single end-to-end pass in
+  step 8 — read section by section — is where you catch a section no record pointed at.
+
 
 ## Rules for this pass
 
