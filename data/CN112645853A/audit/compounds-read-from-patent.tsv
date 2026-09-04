@@ -1,0 +1,56 @@
+A_route	methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate	drawn
+A_route	2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt (generic, no counter-ion)	text
+A_route	sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate	drawn
+A_route	potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate	drawn
+A_route	2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid	drawn
+A_route	2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid	drawn
+A_route	2-chloro-3-(methoxymethyl)-4-(methanesulfonyl)benzoic acid	text
+A_route	the methyl ester of the target compound	text
+A_route	2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid (Markush)	drawn
+B_base	sodium hydroxide	text
+B_base	potassium hydroxide	text
+B_base	sodium tert-butoxide	text
+B_base	potassium tert-butoxide	text
+B_base	sodium hydride	text
+B_base	potassium hydride	text
+B_base	sodium metal	text
+B_base	potassium metal	text
+C_alcohol	2,2,2-trifluoroethanol	text
+C_alcohol	tetrahydrofurfuryl alcohol	text
+D_alkoxide	sodium 2,2,2-trifluoroethoxide	text
+D_alkoxide	potassium 2,2,2-trifluoroethoxide	text
+D_alkoxide	sodium (tetrahydrofuran-2-yl)methoxide	text
+D_alkoxide	potassium (tetrahydrofuran-2-yl)methoxide	text
+E_tertsolv	tert-butanol	text
+E_tertsolv	tert-amyl alcohol	text
+E_tertsolv	2-methyl-2-pentanol	text
+F_solvent	acetonitrile	text
+F_solvent	DMF	text
+F_solvent	DMSO	text
+F_solvent	THF	text
+G_other	hydrochloric acid	text
+G_other	water	text
+G_other	methanol	text
+H_impurity	benzyl alcohol / the benzylic alcohol	text
+H_impurity	dibenzyl ether type compounds	drawn
+H_impurity	double-attachment impurity	text
+I_herbicide	tembotrione	drawn
+I_herbicide	tefuryltrione	drawn
+I_herbicide	mesotrione	text
+J_class	basic substance	text
+J_class	tertiary alcohol	text
+J_class	alcohol	text
+J_class	alkali metal alkoxide	text
+J_class	alkali metal	text
+J_class	base	drawn
+J_class	acid	drawn
+K_placeholder	ROH	drawn
+K_placeholder	ROM	drawn
+L_borderline	HPPD (4-hydroxyphenylpyruvate dioxygenase)	text
+L_borderline	4-hydroxyphenylpyruvate	text
+L_borderline	benzyl bromide (called a group)	text
+L_borderline	triketones	text
+L_borderline	pyrazolones	text
+L_borderline	isoxazolones	text
+J_class	starting material (原料)	text
+J_class	target compound (目标化合物)	text

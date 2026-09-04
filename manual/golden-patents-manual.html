@@ -1,0 +1,849 @@
+<title>Golden Patents Manual</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --paper:#ffffff; --ink:#1b2228; --muted:#5b6670; --rule:#dde2e6; --soft:#f4f6f7;
+  --gold:#8a5a12; --gold-bg:#f9f3e6; --gold-line:#e6d3ae;
+  --gate:#1d4f78; --gate-bg:#eaf0f6; --gate-line:#c5d5e4;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --serif:'IBM Plex Serif',Georgia,'Times New Roman',serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+html,body{background:var(--paper);color:var(--ink);margin:0}
+body{font:10.6pt/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+
+/* ---------- sheets ---------- */
+.sheet{width:210mm;min-height:297mm;margin:0 auto;padding:14mm 14mm 16mm;position:relative;background:var(--paper)}
+.sheet + .sheet{border-top:1px dashed var(--rule)}
+.running{display:flex;justify-content:space-between;font:500 8pt/1 var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase;padding-bottom:6px;border-bottom:1px solid var(--rule);margin-bottom:9mm}
+.running b{color:var(--ink);font-weight:500}
+
+h1{font:600 30pt/1.1 var(--serif);letter-spacing:-.01em;margin:0 0 6px;text-wrap:balance}
+h2{font:600 17pt/1.2 var(--serif);margin:0 0 3mm;text-wrap:balance;column-span:all}
+h2 small{display:block;font:500 8pt/1.4 var(--mono);color:var(--gold);letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+h3{font:600 11.5pt/1.3 var(--sans);margin:0 0 4px;text-wrap:balance}
+h4{font:600 9.5pt/1.3 var(--sans);margin:9px 0 3px;color:var(--ink)}
+p{margin:0 0 7px;max-width:68ch}
+.lead{font-size:11.5pt;color:var(--muted);max-width:80ch;margin-bottom:6mm}
+ul,ol{margin:0 0 7px;padding-left:18px}
+li{margin:0 0 3px}
+li::marker{color:var(--muted)}
+code,kbd{font:9.3pt var(--mono);background:var(--soft);padding:0 3px;border-radius:2px}
+pre{font:8.4pt/1.45 var(--mono);background:var(--soft);padding:8px 10px;border-radius:3px;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 8px;break-inside:avoid}
+pre.span{white-space:pre;margin-top:2mm}
+a{color:inherit}
+hr{border:0;border-top:1px solid var(--rule);margin:6mm 0}
+strong{font-weight:600}
+.muted{color:var(--muted)}
+.small{font-size:9pt}
+
+/* ---------- columns ---------- */
+.cols{column-count:2;column-gap:9mm}
+.cols > *{break-inside:avoid-column}
+.cols p, .cols ul, .cols ol{break-inside:auto}
+.span{column-span:all}
+.keep{break-inside:avoid}
+
+/* ---------- tables ---------- */
+table{width:100%;border-collapse:collapse;font-size:9.2pt;margin:0 0 8px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;vertical-align:top;padding:4px 7px;border-bottom:1px solid var(--rule)}
+th{font:500 8pt/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--ink)}
+td code{font-size:8.6pt}
+.tight td{padding:3px 6px}
+
+/* ---------- semantic blocks ---------- */
+.def{border-left:3px solid var(--gold);background:var(--gold-bg);padding:8px 12px;margin:0 0 9px;break-inside:avoid}
+.def h4{margin:0 0 3px;color:var(--gold)}
+.gate{border:1px solid var(--gate-line);background:var(--gate-bg);border-radius:3px;padding:8px 11px;margin:6px 0 9px;break-inside:avoid}
+.gate h4{margin:0 0 3px;color:var(--gate);display:flex;align-items:center;gap:6px}
+.gate h4::before{content:"";width:9px;height:9px;background:var(--gate);transform:rotate(45deg);display:inline-block;flex:none}
+.note{border-left:2px solid var(--rule);padding:4px 10px;margin:0 0 8px;color:var(--muted);font-size:9.5pt;break-inside:avoid}
+
+/* ---------- step card ---------- */
+.step{border:1px solid var(--rule);border-radius:3px;padding:9px 11px 6px;margin:0 0 9px;break-inside:avoid;background:var(--paper)}
+.step-head{display:flex;align-items:baseline;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.pn{font:500 9pt/1 var(--mono);color:var(--paper);background:var(--ink);padding:4px 6px;border-radius:2px;letter-spacing:.04em}
+.pn.todo{background:var(--paper);color:var(--muted);border:1px dashed var(--muted)}
+.step-head h3{margin:0;flex:1 1 auto}
+.chip{font:500 7.5pt/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--rule);padding:3px 6px;border-radius:10px;white-space:nowrap}
+.step dl{margin:0;display:grid;grid-template-columns:22mm 1fr;column-gap:8px;row-gap:3px;font-size:9.5pt}
+.step dt{font:500 7.8pt/1.6 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.step dd{margin:0}
+.step dd p{max-width:none;margin-bottom:3px}
+.step .gate{margin:7px -2px 2px}
+
+/* ---------- cover ---------- */
+.cover{display:flex;flex-direction:column;justify-content:space-between}
+.cover .kicker{font:500 8.5pt/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:12mm}
+.cover .sub{font:400 13pt/1.4 var(--sans);color:var(--muted);max-width:60ch;margin:0 0 14mm}
+.cover .facts{display:grid;grid-template-columns:1fr 1fr;gap:6mm 10mm;border-top:1px solid var(--ink);padding-top:6mm}
+.cover .facts div{font-size:9.5pt}
+.cover .facts b{display:block;font:500 7.8pt/1.6 var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.cover .foot{font-size:8.8pt;color:var(--muted);border-top:1px solid var(--rule);padding-top:4mm;display:flex;justify-content:space-between;gap:10mm}
+.toc{list-style:none;padding:0;margin:0;columns:2;column-gap:9mm}
+.toc li{display:flex;gap:8px;align-items:baseline;border-bottom:1px dotted var(--rule);padding:4px 0;break-inside:avoid;margin:0}
+.toc li span:first-child{font:500 8.5pt var(--mono);color:var(--muted);width:16px;flex:none}
+.toc li span:last-child{margin-left:auto;font:400 8.5pt var(--mono);color:var(--muted)}
+
+/* ---------- checklist ---------- */
+.check li{list-style:none;position:relative;padding-left:18px}
+.check li::before{content:"";position:absolute;left:0;top:4px;width:9px;height:9px;border:1.2px solid var(--ink);border-radius:1px}
+
+/* ---------- process map ---------- */
+figure{margin:0 0 8px;break-inside:avoid}
+figcaption{font-size:8.8pt;color:var(--muted);margin-top:4px}
+svg text{font-family:var(--sans)}
+svg .mono{font-family:var(--mono)}
+
+/* ---------- print ---------- */
+@page{size:A4;margin:14mm 14mm 16mm}
+@media print{
+  body{font-size:10.2pt}
+  .sheet{width:auto;min-height:0;margin:0;padding:0 0 10mm;break-before:page;border:0!important}
+  .sheet:first-child{break-before:auto}
+  .sheet.cover{min-height:260mm}
+  a{text-decoration:none}
+}
+@media screen and (max-width:760px){
+  .sheet{width:auto;padding:8vw 5vw}
+  .cols{column-count:1}
+  .toc{columns:1}
+}
+</style>
+
+<!-- ============================ COVER ============================ -->
+<section class="sheet cover">
+  <div>
+    <div class="kicker">Golden Patents · Working manual · Revision 0.1 · 2026-09-03</div>
+    <h1>Golden Patents Manual</h1>
+    <p class="sub">How to take one patent and the JSON the pipeline extracted from it, and turn that JSON into gold: every reaction, compound and pathway the patent describes, every field right, every value traceable to a line.</p>
+    <div class="facts">
+      <div><b>You need</b>the patent folder under <code>runs/</code>, the prompt files, Claude Code, and the findings workbook</div>
+      <div><b>You produce</b>gold <code>reactions.json</code>, <code>compounds.json</code>, <code>pathways.json</code>, plus a complete audit trail</div>
+      <div><b>Passes</b>3 phases × 3 tracks. Each gate in three steps: validate the flags, you decide, apply the fixes. At the end, a semi-final verification, then a final verification by two subagents told to break the gold</div>
+      <div><b>Your role</b>Claude reads, flags and validates its own flags. You decide every one. Nothing changes in the gold until you say so</div>
+    </div>
+  </div>
+  <div>
+    <h3 style="margin-bottom:6px">Contents</h3>
+    <ol class="toc">
+      <li><span>1</span>What gold means and how the work is shaped<span>p. 2</span></li>
+      <li><span>2</span>Before you start: prerequisites and folder layout<span>p. 3</span></li>
+      <li><span>3</span>The process map<span>p. 4</span></li>
+      <li><span>4</span>Rules that hold on every pass<span>p. 4</span></li>
+      <li><span>5</span>Phase 1 · The count (P1–P4)<span>p. 5</span></li>
+      <li><span>6</span>Phase 2 · The content (P5, P6)<span>p. 7</span></li>
+      <li><span>7</span>Phase 3 · Semi-final and final verification (P9–P11)<span>p. 8</span></li>
+      <li><span>8</span>Pathways track (P12–P15, proposed)<span>p. 9</span></li>
+      <li><span>9</span>The gate: validate (P7), decide, fix (P8)<span>p. 10</span></li>
+      <li><span>10</span>The audit trail: files, workbook, templates<span>p. 11</span></li>
+      <li><span>11</span>Finishing: definition of done and hand-over<span>p. 12</span></li>
+      <li><span>A</span>Prompt index<span>p. 13</span></li>
+      <li><span>B</span>Glossary<span>p. 13</span></li>
+    </ol>
+    <div class="foot" style="margin-top:8mm">
+      <span>The prompts themselves are in <code>prompts-for-gold/</code>, not in this manual. P1 to P15 here name the steps. Appendix A shows which file each step uses.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 1. WHAT GOLD MEANS ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>1 · What gold means</span></div>
+  <h2><small>Chapter 1</small>What gold means and how the work is shaped</h2>
+  <div class="cols">
+    <p>The pipeline reads a patent and writes three JSON files: reactions, compounds and pathways. They are a first draft written by a model. Gold is that draft after a second reader has proven it against the patent, line by line.</p>
+    <div class="def">
+      <h4>A record is gold when</h4>
+      <ul style="margin:0">
+        <li>Everything the patent says about it is in the record.</li>
+        <li>Nothing in the record is unsupported by the patent.</li>
+        <li>Every empty field was checked, and the patent really is silent.</li>
+        <li>Every generated label is right, and consistent across the file.</li>
+      </ul>
+    </div>
+    <p>A file is gold when every record is, and it holds each reaction, compound or pathway the patent describes once. Deliberate exceptions are written down.</p>
+
+    <h3>Two questions, in order</h3>
+    <ol>
+      <li><strong>Coverage.</strong> Does the file hold everything the patent describes, and nothing more? Read the patent first, then compare.</li>
+      <li><strong>Content.</strong> Is every field of every record right and complete? One record at a time, against the whole patent.</li>
+    </ol>
+    <p>Coverage comes first. Checking fields in a file with missing records is wasted work.</p>
+
+    <h3>Three phases</h3>
+    <table class="tight">
+      <tr><th>Phase</th><th>Claude</th><th>You</th></tr>
+      <tr><td>1 · Count</td><td>reads, lists, reconciles, flags</td><td>decide flags, order fixes</td></tr>
+      <tr><td>2 · Content</td><td>verifies each record, flags</td><td>decide flags, order fixes</td></tr>
+      <tr><td>3 · Decide</td><td>semi-final: re-derives every field, corrects. Final: two subagents try to fail the gold</td><td>accept, declare gold</td></tr>
+    </table>
+    <p>Phases 1 and 2 flag and stop. Only Phase 3 corrects as it goes. That order keeps a bad correction out of the ground truth.</p>
+    <p>Every gate has three steps: Claude validates the flags (P7), you decide, Claude applies the fixes (P8). Chapter 9.</p>
+
+    <h3>Three tracks</h3>
+    <p>Reactions, compounds, pathways. Each track has the same four passes: identify, reconcile, verify records, final check. In every phase, reactions run before compounds, and compounds before pathways, because each depends on the one before.</p>
+
+    <h3>Where you fit</h3>
+    <p>Claude reads and flags. You decide. Nothing changes in the gold until you say so.</p>
+    <p>Two caveats. No human has read the patent line by line unless you do. And the extraction and the audit are both Claude, so the independent read in Phase 1 is the only defence against a shared misreading. Keep it independent.</p>
+  </div>
+</section>
+
+<!-- ============================ 2. PREREQUISITES ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>2 · Before you start</span></div>
+  <h2><small>Chapter 2</small>Before you start</h2>
+  <div class="cols">
+    <h3>What you need on your machine</h3>
+    <ul class="check">
+      <li><strong>The repository</strong> <a href="https://github.com/yashmstack/patent-extraction">github.com/yashmstack/patent-extraction</a>, cloned, with the pipeline already run for your patent. You check the output; you do not run the extraction.</li>
+      <li><strong>Claude Code</strong>, installed and signed in.</li>
+      <li><strong>The prompts</strong> in <code>prompts-for-gold/</code>. Read its README once.</li>
+      <li><strong>The findings workbook</strong> <code>GOLDEN-DATASET-FINDINGS.xlsx</code>, with a sheet for your patent (columns in Chapter 10).</li>
+    </ul>
+
+    <h3>What you need to know</h3>
+    <ul class="check">
+      <li>Enough organic chemistry to tell a reactant from a solvent, a range from a point value, and two names for one compound from two compounds.</li>
+      <li>How to read the enriched markdown. Every line has a number, Chinese lines are followed by an indented <code>&gt; EN:</code> translation, and drawings arrive as <code>[IMAGE_EXTRACT: …]</code> blocks carrying SMILES read off the page.</li>
+      <li>That the patent, not the pipeline and not the schema, is the standard. If the patent says it and the file cannot hold it, that is a finding, never a reason to drop it.</li>
+    </ul>
+
+    <h3>The three inputs, and where they are</h3>
+    <table class="tight">
+      <tr><th>Input</th><th>Path under <code>runs/&lt;PATENT_ID&gt;/</code></th></tr>
+      <tr><td>The patent, as downloaded</td><td><code>input/pdf/</code></td></tr>
+      <tr><td>Line-numbered translated markdown. <strong>The only source Claude reads.</strong></td><td><code>input/&lt;PATENT_ID&gt;-enriched-numbered.md</code></td></tr>
+      <tr><td>Extracted reactions, the file under test</td><td><code>output/reactions.json</code></td></tr>
+      <tr><td>Extracted compounds, the file under test</td><td><code>output/compounds.json</code></td></tr>
+      <tr><td>Extracted pathways, the file under test</td><td><code>output/pathways.json</code></td></tr>
+    </table>
+    <p class="note">The PDF is for you. When a value looks wrong in the markdown itself, open the page in the PDF and look. The markdown came from a vision pass over scanned pages and can be wrong in ways Claude cannot see, because Claude reads the markdown.</p>
+
+    <h3>Set up the folder</h3>
+    <p>Open a terminal at the repository root and run:</p>
+<pre class="span">cd runs/&lt;PATENT_ID&gt;
+mkdir -p audit
+cp output/reactions.json  audit/reactions.json.ORIGINAL
+cp output/compounds.json  audit/compounds.json.ORIGINAL
+cp output/pathways.json   audit/pathways.json.ORIGINAL
+claude</pre>
+    <p>The <code>audit/</code> folder is where every list, log and note from this manual goes. The three <code>.ORIGINAL</code> copies are the extraction as delivered; nothing in this process may edit them, and the finished README will quote counts against them.</p>
+
+    <h3>The folder when you are done</h3>
+<pre class="span">runs/&lt;PATENT_ID&gt;/
+  input/
+    pdf/                                 the patent
+    &lt;ID&gt;-enriched-numbered.md            the source of every value
+  output/
+    reactions.json   compounds.json   pathways.json      ← the GOLD
+    reactions.schema.json                extended if fields were added
+  audit/
+    reactions-read-from-patent.md        P1 independent list, written before the JSON was opened
+    compounds-read-from-patent.md        P3 independent list
+    pathways-read-from-patent.md         P12 independent list
+    AUDIT-LOG.md                         per-record verification log, P5–P11
+    RUN-NOTES.md                         what was odd about this patent, in prose
+    GOLDEN-DATASET-FINDINGS.xlsx         every flag, every decision
+    *.ORIGINAL, *.BACKUP-pre-&lt;fix&gt;.json  a copy before every fixing pass
+    README.md                            what is here, what is not, caveats</pre>
+    <p class="small muted">When the patent is accepted, <code>input/</code>, <code>output/</code> and <code>audit/</code> are copied into <code>goldenPatents/&lt;PATENT_ID&gt;/</code> and the root README table gets a row. Chapter 11.</p>
+  </div>
+</section>
+
+<!-- ============================ 3. MAP + 4. RULES ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>3 · Process map &nbsp;·&nbsp; 4 · Rules</span></div>
+  <h2><small>Chapter 3</small>The process map</h2>
+  <figure>
+    <svg viewBox="0 0 790 336" width="100%" role="img" aria-label="Three tracks (reactions, compounds, pathways) cross three phases (count, content, decide). Each phase ends at a gate: validate flags, you decide, fix. A final-verification column precedes gold.">
+      <defs>
+        <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5b6670"/></marker>
+      </defs>
+      <text x="178" y="20" text-anchor="middle" font-size="10" font-weight="600" fill="#1b2228">PHASE 1 · THE COUNT</text>
+      <text x="178" y="33" text-anchor="middle" font-size="8.5" fill="#5b6670">coverage: nothing missing, nothing invented</text>
+      <text x="410" y="20" text-anchor="middle" font-size="10" font-weight="600" fill="#1b2228">PHASE 2 · THE CONTENT</text>
+      <text x="410" y="33" text-anchor="middle" font-size="8.5" fill="#5b6670">every field of every record</text>
+      <text x="628" y="20" text-anchor="middle" font-size="10" font-weight="600" fill="#1b2228">PHASE 3 · DECIDE</text>
+      <text x="628" y="33" text-anchor="middle" font-size="8.5" fill="#5b6670">semi-final, final, declare</text>
+
+      <text x="128" y="56" text-anchor="middle" font-size="8" fill="#5b6670" class="mono">identify (md only)</text>
+      <text x="258" y="56" text-anchor="middle" font-size="8" fill="#5b6670" class="mono">reconcile vs json</text>
+      <text x="410" y="56" text-anchor="middle" font-size="8" fill="#5b6670" class="mono">verify each record</text>
+      <text x="562" y="56" text-anchor="middle" font-size="8" fill="#5b6670" class="mono">semi-final check</text>
+      <text x="650" y="56" text-anchor="middle" font-size="8" fill="#5b6670" class="mono">final check</text>
+
+      <!-- gates -->
+      <g fill="#eaf0f6" stroke="#1d4f78" stroke-width="1.2">
+        <rect x="326" y="66" width="30" height="222" rx="2"/>
+        <rect x="478" y="66" width="30" height="222" rx="2"/>
+        <rect x="694" y="66" width="30" height="222" rx="2"/>
+      </g>
+      <g font-size="7.6" fill="#1d4f78" font-weight="600" class="mono">
+        <text transform="translate(337 177) rotate(-90)" text-anchor="middle">P7 VALIDATE · YOU DECIDE</text>
+        <text transform="translate(348 177) rotate(-90)" text-anchor="middle">P8 FIX · LOG · BACKUP</text>
+        <text transform="translate(489 177) rotate(-90)" text-anchor="middle">P7 VALIDATE · YOU DECIDE</text>
+        <text transform="translate(500 177) rotate(-90)" text-anchor="middle">P8 FIX · LOG · BACKUP</text>
+        <text transform="translate(705 177) rotate(-90)" text-anchor="middle">YOU DECIDE ITS FLAGS</text>
+        <text transform="translate(716 177) rotate(-90)" text-anchor="middle">YOU ACCEPT · DATE</text>
+      </g>
+
+      <!-- final verification column -->
+      <rect x="630" y="76" width="40" height="190" rx="2" fill="#ffffff" stroke="#1b2228"/>
+      <text x="650" y="160" text-anchor="middle" font-size="11" font-weight="600" fill="#1b2228" class="mono">P11</text>
+      <text transform="translate(650 200) rotate(-90)" text-anchor="middle" font-size="7.6" fill="#5b6670">2 subagents try to fail it</text>
+
+      <!-- rows -->
+      <g font-size="10" font-weight="600" fill="#1b2228">
+        <text x="6" y="96">Reactions</text><text x="6" y="170">Compounds</text><text x="6" y="244">Pathways</text>
+      </g>
+      <g font-size="8" fill="#5b6670" class="mono">
+        <text x="6" y="110">reactions.json</text><text x="6" y="184">compounds.json</text><text x="6" y="258">pathways.json</text>
+      </g>
+
+      <g stroke="#1b2228" stroke-width="1" fill="#ffffff">
+        <rect x="84" y="76" width="88" height="42" rx="2"/><rect x="214" y="76" width="88" height="42" rx="2"/>
+        <rect x="366" y="76" width="88" height="42" rx="2"/><rect x="518" y="76" width="88" height="42" rx="2"/>
+        <rect x="84" y="150" width="88" height="42" rx="2"/><rect x="214" y="150" width="88" height="42" rx="2"/>
+        <rect x="366" y="150" width="88" height="42" rx="2"/><rect x="518" y="150" width="88" height="42" rx="2"/>
+      </g>
+      <g stroke="#5b6670" stroke-width="1" stroke-dasharray="3 3" fill="#ffffff">
+        <rect x="84" y="224" width="88" height="42" rx="2"/><rect x="214" y="224" width="88" height="42" rx="2"/>
+        <rect x="366" y="224" width="88" height="42" rx="2"/><rect x="518" y="224" width="88" height="42" rx="2"/>
+      </g>
+      <g font-size="11" font-weight="600" fill="#1b2228" class="mono" text-anchor="middle">
+        <text x="128" y="94">P1</text><text x="258" y="94">P2</text><text x="410" y="94">P5</text><text x="562" y="94">P9</text>
+        <text x="128" y="168">P3</text><text x="258" y="168">P4</text><text x="410" y="168">P6</text><text x="562" y="168">P10</text>
+      </g>
+      <g font-size="11" font-weight="600" fill="#5b6670" class="mono" text-anchor="middle">
+        <text x="128" y="242">P12</text><text x="258" y="242">P13</text><text x="410" y="242">P14</text><text x="562" y="242">P15</text>
+      </g>
+      <g font-size="7.8" fill="#5b6670" text-anchor="middle">
+        <text x="128" y="109">count + list</text><text x="258" y="109">3 tables, flags</text><text x="410" y="109">flags per record</text><text x="562" y="109">corrects, yes / no</text>
+        <text x="128" y="183">count + list</text><text x="258" y="183">3 tables, flags</text><text x="410" y="183">flags per record</text><text x="562" y="183">corrects, yes / no</text>
+        <text x="128" y="257">count + list</text><text x="258" y="257">3 tables, flags</text><text x="410" y="257">flags per record</text><text x="562" y="257">corrects, yes / no</text>
+      </g>
+      <g stroke="#5b6670" stroke-width="1" fill="none" marker-end="url(#arr)">
+        <path d="M172 97H212"/><path d="M302 97H324"/><path d="M356 97H364"/><path d="M454 97H476"/><path d="M508 97H516"/><path d="M606 97H628"/>
+        <path d="M172 171H212"/><path d="M302 171H324"/><path d="M356 171H364"/><path d="M454 171H476"/><path d="M508 171H516"/><path d="M606 171H628"/>
+        <path d="M172 245H212"/><path d="M302 245H324"/><path d="M356 245H364"/><path d="M454 245H476"/><path d="M508 245H516"/><path d="M606 245H628"/>
+        <path d="M670 171H692"/>
+      </g>
+      <rect x="742" y="66" width="34" height="222" rx="2" fill="#f9f3e6" stroke="#8a5a12"/>
+      <text transform="translate(761 177) rotate(-90)" text-anchor="middle" font-size="10" font-weight="600" fill="#8a5a12" class="mono">GOLD</text>
+      <text x="84" y="310" font-size="8.3" fill="#5b6670">Solid boxes: passes that exist as prompt files today (P9 and P10 are the files currently numbered 7 and 8). P11 and dashed boxes: proposed, not yet written.</text>
+      <text x="84" y="324" font-size="8.3" fill="#5b6670">Blue bars are gates. Run order within a phase: reactions, then compounds, then pathways. Nothing right of a gate starts before the gate is closed.</text>
+    </svg>
+    <figcaption>One sheet of the process. Each cell is one prompt pasted into Claude Code. Each blue bar is a gate: Claude validates the flags, you decide, Claude applies what you decided.</figcaption>
+  </figure>
+
+  <h2 style="margin-top:6mm"><small>Chapter 4</small>Rules that hold on every pass</h2>
+  <div class="cols">
+    <p>These are the rules the prompts enforce. They are here so you can tell when Claude is breaking one, and so you do not break one yourself while deciding flags.</p>
+    <ol>
+      <li><strong>The identification pass never opens the extraction output.</strong> Once a reader has seen the answer it finds the same things, and its count is worthless. In one session the same model produced counts of 48, 54 and 56 depending on what it had seen. If Claude admits it has seen the JSON, start a fresh session.</li>
+      <li><strong>Reconcile by identity, never by number.</strong> Two files can hold 54 records each and disagree about half. DMF and N,N-dimethylformamide are one compound. Match on what reacts and what forms, not on labels or counts.</li>
+      <li><strong>Flag, do not fix,</strong> in Phases 1 and 2. Fixing happens only after you have reviewed the flags. Phase 3 corrects as it goes, and logs every change.</li>
+      <li><strong>Never treat the pipeline's behaviour as correct.</strong> It is the thing being measured. Look up what a field is defined to hold; never conclude a value is absent for a good reason because the pipeline left it out.</li>
+      <li><strong>A null is not evidence the patent is silent.</strong> Every empty field is a question. Checking is the only way to tell an absent value from an uncaptured one.</li>
+      <li><strong>Prose is not capture.</strong> A value sitting only in <code>notes</code> or a <code>*_text</code> field is invisible downstream. It is still a finding.</li>
+      <li><strong>Never withdraw a finding because the schema has no field.</strong> Flag it. If it matters, the schema is extended. The gold must be more complete than the pipeline, not equally lossy.</li>
+      <li><strong>A range reaches the JSON as two numbers.</strong> Min and max, with open bounds keeping their side. A single float holding one end of a range is a loss that looks like a value.</li>
+      <li><strong>A step told twice covers itself.</strong> Where the claims and the summary both record one step, a value present on one is not missing from the other. Read twins together.</li>
+      <li><strong>List every item individually.</strong> If there are 43 matches, the table has 43 rows. Ranges of rows hide exactly what you came to check.</li>
+      <li><strong>Log as you read.</strong> Passes as well as failures, so the work can be checked later by someone who was not there.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================ 5. PHASE 1 ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>5 · Phase 1 · The count</span></div>
+  <h2><small>Chapter 5 · Phase 1</small>The count: does the file hold everything the patent describes?</h2>
+  <p class="lead span">Four prompts, two per track. The odd-numbered prompt reads the patent alone and writes an independent list. The even-numbered prompt opens the JSON and reconciles the two by identity. You close the phase by deciding every flag.</p>
+  <div class="cols">
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P1</span><h3>Identify every reaction in the patent</h3><span class="chip">reactions</span></div>
+      <dl>
+        <dt>Before</dt><dd>Fresh Claude Code session in <code>runs/&lt;PATENT_ID&gt;/</code>. Claude must not have opened <code>output/</code> in this session. Ask it to confirm.</dd>
+        <dt>Paste</dt><dd><code>prompts-for-gold/1-reactions-identification.md</code>, with your patent id filled in.</dd>
+        <dt>Claude does</dt><dd>Reads the markdown line by line, keeping a running audit. Decides how many genuine reactions, transformations and steps the patent describes and where each one is. Dedups on identity: the same reaction described in four sections is one entry; the same reaction performed twice is two.</dd>
+        <dt>You receive</dt><dd>A count, and a list with one line per reaction: what reacts, what forms, which section, which line numbers. Mechanical counts alongside (drawn arrows, examples, claims).</dd>
+        <dt>Save as</dt><dd><code>audit/reactions-read-from-patent.md</code>. Write the count at the top. Date it.</dd>
+      </dl>
+      <div class="gate">
+        <h4>Gate 1a · Re-verify the list before it becomes the yardstick</h4>
+        <p>Open a second fresh session, or a context-free subagent, that has also not seen the JSON. Give it the markdown and the list and ask it to confirm the count, find anything the list missed, and challenge anything on it that is not a real transformation. Reconcile the two lists yourself. Only a list that has survived a second independent reader goes into P2.</p>
+      </div>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P2</span><h3>Reconcile the list against <code>reactions.json</code></h3><span class="chip">reactions</span></div>
+      <dl>
+        <dt>Before</dt><dd>P1 finished and the count written down. Same or new session; from here the JSON may be opened.</dd>
+        <dt>Paste</dt><dd><code>prompts-for-gold/2-reactions-reconciliation.md</code>.</dd>
+        <dt>Claude does</dt><dd>Takes one JSON record at a time, reads what it claims to be, reads the cited lines, then re-reads the whole markdown with that record in mind, and decides which transformation on the list it is. Matches by identity, never by count or label. Checks twins together before flagging.</dd>
+        <dt>You receive</dt><dd>Three tables, every row an individual item. <strong>Matches</strong>: your transformation, its <code>reaction_id</code>, and whether the match is exact or by identity. <strong>Missing</strong>: in the patent but not in the file, with line and a reason it was probably missed. <strong>Extra</strong>: in the file but not in the patent, each with a verdict of false record or Claude's own miss. Then the three counts.</dd>
+        <dt>Save as</dt><dd>Append the tables to <code>audit/reactions-read-from-patent.md</code>. Every Missing, Extra and Wrong row becomes a workbook row.</dd>
+      </dl>
+      <div class="gate">
+        <h4>Gate 1b · Validate, decide, fix</h4>
+        <p><strong>Validate (P7):</strong> run the findings validator over the Missing, Extra and Wrong rows. It re-reads each cited line and marks the row confirmed, withdrawn with a reason, or needs-decision. <strong>Decide:</strong> for each confirmed Missing row, is it a genuine transformation? Order it added. For each Extra row: false record or duplicate? Remove, or merge if it is a strict subset of its twin, or keep with a note if it is a real retelling that carries substance. For each Wrong row, order the correction. Write every decision in the workbook. <strong>Fix (P8):</strong> only then tell Claude to apply the decided changes, back up first, log each against its id, and re-run the three counts to prove the file now matches the list.</p>
+      </div>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P3</span><h3>Identify every compound the patent mentions</h3><span class="chip">compounds</span></div>
+      <dl>
+        <dt>Before</dt><dd>Fresh session. Claude must not have opened <code>compounds.json</code>. The reactions work does not contaminate this pass, but a session that has seen <code>compounds.json</code> does.</dd>
+        <dt>Paste</dt><dd><code>prompts-for-gold/3-compounds-identification.md</code>.</dd>
+        <dt>Claude does</dt><dd>Reads every line and writes down every compound with its line number: named substances, drawn structures, reagents, solvents, catalysts, and the class terms the claims recite ("an oxidant", "a base") even where no substance is named.</dd>
+        <dt>You receive</dt><dd>A count and a list: compound, first line, every other line, the names the patent uses for it, the role it plays.</dd>
+        <dt>Save as</dt><dd><code>audit/compounds-read-from-patent.md</code>. Count at the top.</dd>
+      </dl>
+      <div class="gate">
+        <h4>Gate 1c · Re-verify the compound list</h4>
+        <p>Same as Gate 1a: a second reader that has not seen the JSON confirms the count and the identities. Pay particular attention to one substance under several names, and to isomers sharing a formula, which are two compounds, not one.</p>
+      </div>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P4</span><h3>Reconcile the list against <code>compounds.json</code></h3><span class="chip">compounds</span></div>
+      <dl>
+        <dt>Paste</dt><dd><code>prompts-for-gold/4-compounds-reconciliation.md</code>, after P3 is written down.</dd>
+        <dt>Claude does</dt><dd>Record by record, matches on identity using <code>aliases</code> as well as <code>identifier</code>. Finds what the file has that the list has, what is in the file and not the patent, and what the patent names that the file does not hold. Flags duplicates: one substance written several times, once per naming form.</dd>
+        <dt>You receive</dt><dd>The same three tables and three counts. Duplicate groups listed with the records in each group and whether they genuinely differ in role or charge.</dd>
+      </dl>
+      <div class="gate">
+        <h4>Gate 1d · Validate, decide, fix</h4>
+        <p>Same three steps. The two decision families that dominate here are the ones from the sketch on the desk: <strong>duplicates</strong> and <strong>chemical structure</strong>. Missing compounds are added, class terms included. Duplicates are merged losslessly only when nothing distinguishes them; a substance the patent charges in two roles or two sections stays split, and the reason is written into the record. Never merge on molecular formula: two isomers are two compounds. Log, then P8, then re-count.</p>
+      </div>
+    </article>
+
+    <div class="def keep">
+      <h4>Phase 1 is closed when</h4>
+      <ul style="margin:0">
+        <li>Both independent lists exist, dated, each confirmed by a second reader.</li>
+        <li>Every Missing, Extra and Wrong row has a decision in the workbook.</li>
+        <li>The ordered fixes are applied, backups exist, and a re-count shows matched = list, missing = 0, extra = 0 apart from rows you closed by decision.</li>
+        <li>Every <code>identifier</code> that <code>reactions.json</code> references resolves to a record in <code>compounds.json</code>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 6. PHASE 2 ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>6 · Phase 2 · The content</span></div>
+  <h2><small>Chapter 6 · Phase 2</small>The content: is every field of every record right?</h2>
+  <p class="lead span">Phase 1 fixed the count. Now each record is checked in full. The unit of work is one record and one complete reading of the patent. If the file has 69 records, the patent is read 69 times, each time holding a different record in mind. This phase flags only.</p>
+  <div class="cols">
+
+    <h3>The loop Claude runs, for every record</h3>
+    <ol>
+      <li>Open the file and read the schema actually present, so every field is judged by what it is defined to hold.</li>
+      <li>Take record <em>i</em>, starting at 0, in file order. Keep the index visible in every report so no record is skipped.</li>
+      <li>Understand the record: what it claims to be, what reacts, what forms, under what conditions.</li>
+      <li>Read the whole markdown, end to end, asking of every line whether it says anything about this record. Not only the cited lines: the charge is in the example, the range in the claims, the reason in the summary, the structure in a drawing, the meaning of R somewhere else.</li>
+      <li>Compare. Is every value correct? Is anything the patent says about this record missing? Is anything in the record unsupported? Is the record rich, carrying everything the patent gives and not the minimum?</li>
+      <li>Do steps 3 to 5 a second time. The second pass catches what the first missed.</li>
+      <li>Next record. When the last is done, return to 0 for a final sweep of the whole file.</li>
+    </ol>
+
+    <h3>What "read carefully" means here</h3>
+    <p>Read normally first, for meaning: what the step is for, what a phrase refers back to, what a drawing shows. Then do the checkable things alongside. Count how many times the patent states a thing and check the file holds that many. Treat every quotation field as a claim and find the exact string. Line identical situations up side by side across records; most inconsistency is invisible one record at a time. Where a check can be mechanical, make it mechanical: counting, string matching and cross-record comparison are what a reader does worst and a short script does perfectly.</p>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P5</span><h3>Verify every record in <code>reactions.json</code></h3><span class="chip">reactions</span></div>
+      <dl>
+        <dt>Before</dt><dd>Phase 1 closed for reactions. Back up the file as <code>audit/reactions.BACKUP-pre-P5.json</code>.</dd>
+        <dt>Paste</dt><dd><code>prompts-for-gold/5-reactions-record-verification.md</code>.</dd>
+        <dt>Claude does</dt><dd>The loop above. Pays special attention to empty fields, to ranges stored as single numbers, to preference tiers ("40–100 °C, preferably 70–90 °C" is two facts), to multi-stage one-pot runs whose stage conditions have nowhere to go, and to values that live only in prose.</dd>
+        <dt>You receive</dt><dd>The complete issue list, record by record, with index, <code>reaction_id</code>, field, line numbers, what the patent says, what the record has. The list of records that passed clean. Anything unresolved, with both readings.</dd>
+        <dt>Save as</dt><dd><code>audit/AUDIT-LOG.md</code>, one heading per record, passes included. Every issue becomes a workbook row on the Reactions half.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P6</span><h3>Verify every record in <code>compounds.json</code></h3><span class="chip">compounds</span></div>
+      <dl>
+        <dt>Before</dt><dd>Phase 1 closed for compounds. Back up as <code>audit/compounds.BACKUP-pre-P6.json</code>.</dd>
+        <dt>Paste</dt><dd><code>prompts-for-gold/6-compounds-record-verification.md</code>.</dd>
+        <dt>Claude does</dt><dd>The same loop, per compound. Checks role against what the compound actually does in each section, every quantity as a genuine pair from one real experiment, every analytics quotation verbatim, aliases complete, section anchors right, and that quantities of a solution are not read as quantities of the solute.</dd>
+        <dt>You receive</dt><dd>Issue list with index, <code>identifier</code>, field, lines; clean records; unresolved items.</dd>
+        <dt>Save as</dt><dd>Append to <code>audit/AUDIT-LOG.md</code>. Workbook rows on the Compounds half.</dd>
+      </dl>
+    </article>
+
+    <div class="gate">
+      <h4>Gate 2 · Validate (P7), decide, fix (P8)</h4>
+      <p>Run the findings validator over every P5 and P6 row first; a flag on a 1,100-line patent is sometimes a misread, and you should not spend a decision on it. Then work the confirmed and needs-decision rows top to bottom. For each row choose one decision from Chapter 9: fix as flagged, fix differently, keep and close by decision, add a field, or leave unresolved with both readings recorded. Where a field is needed that the schema lacks, decide now whether to extend the schema; the gold is allowed to hold more than the pipeline, never less. When every row has a decision, run P8: Claude applies the decided fixes in one pass, backs up first, logs each change against its finding id, and re-validates the JSON against the schema.</p>
+    </div>
+
+    <div class="def keep">
+      <h4>Phase 2 is closed when</h4>
+      <ul style="margin:0">
+        <li>Every record has an entry in the audit log, pass or fail.</li>
+        <li>Every issue is a workbook row with a decision.</li>
+        <li>Ordered fixes are applied and logged, with a backup taken before.</li>
+        <li>The files validate against their schemas, extended where you decided to extend.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 7. PHASE 3 ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>7 · Phase 3 · Semi-final and final verification</span></div>
+  <h2><small>Chapter 7 · Phase 3</small>Semi-final and final verification: is it actually gold?</h2>
+  <p class="lead span">Two checks close the work. The <strong>semi-final verification</strong> is a prompt that assumes nothing: it walks every field of every record, asks where the answer comes from, and corrects as it goes. The <strong>final verification</strong> is two subagents with no context, each told to try to fail the gold. If neither can, it is gold.</p>
+  <div class="cols">
+
+    <h3>Two kinds of field, checked two ways</h3>
+    <p>A field the <strong>patent must answer</strong> (a mass, a temperature, a compound, a yield) is checked against the page. A field the <strong>model generates</strong> (reaction class, mechanism type, tags, confidence) is checked against the chemistry and against how the rest of the file treats the same situation. A generated label can be chemically defensible and still wrong, if two identical records carry different values.</p>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P9</span><h3>Semi-final verification of <code>reactions.json</code></h3><span class="chip">reactions</span></div>
+      <dl>
+        <dt>File today</dt><dd><code>7-reactions-final-gold-check.md</code></dd>
+        <dt>Before</dt><dd>Every Phase 1 and Phase 2 flag validated, decided and applied. Back up as <code>audit/reactions.BACKUP-pre-final.json</code>.</dd>
+        <dt>Claude does</dt><dd>Record by record from 0, reads the whole patent for each, then walks every field in order. Empty field: works out how it ought to be filled, verifies against the markdown, and either fills it or states that the patent is silent. Filled field: re-verifies, corrects if wrong, reasons why it was wrong, verifies the correction. Stops and asks when unsure rather than guessing.</dd>
+        <dt>You receive</dt><dd>Per record: passed clean or corrected, with index and lines. A plain statement: gold, or not gold and exactly what blocks it. Anything unsettled, with both readings.</dd>
+        <dt>Save as</dt><dd>Append to <code>audit/AUDIT-LOG.md</code>. Every correction is a workbook row marked as made in the semi-final check.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn">P10</span><h3>Semi-final verification of <code>compounds.json</code></h3><span class="chip">compounds</span></div>
+      <dl>
+        <dt>File today</dt><dd><code>8-compounds-final-gold-check.md</code></dd>
+        <dt>Before</dt><dd>Back up as <code>audit/compounds.BACKUP-pre-final.json</code>.</dd>
+        <dt>Claude does</dt><dd>The same re-derivation per compound: identity, aliases, role, section, every quantity, every analytics quotation, every derived field, every deliberate split, and the reason for every null.</dd>
+        <dt>You receive</dt><dd>Per record verdict, the gold statement, unsettled items.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P11</span><h3>Final verification: two subagents try to fail the gold</h3><span class="chip">all tracks</span></div>
+      <dl>
+        <dt>File</dt><dd>proposed <code>11-all-final-verification.md</code>; today this is done by hand with fresh sessions</dd>
+        <dt>Why</dt><dd>A fixing pass introduces defects of its own. On one finished patent four of the last eight defects were introduced by the annotation, not the extraction, and only a reader with no memory of the fixes caught them.</dd>
+        <dt>Claude does</dt><dd>Launches two subagents with no context. Each gets only the markdown and the finished files, and one instruction: try to prove this is not gold. Find any value that is wrong, missing or unsupported, with line numbers. They do not see the workbook, the audit log or each other. Their findings are merged into one triage list.</dd>
+        <dt>You receive</dt><dd>The triage list, each item with the record, the line, the claim and which subagent raised it.</dd>
+      </dl>
+    </article>
+
+    <div class="gate">
+      <h4>Gate 3 · Decide the final-verification findings, accept the corrections, declare</h4>
+      <p>Treat the triage list like any other flag list: validate, decide, fix. Then read every correction the semi-final check made against its line numbers. If either subagent found a real failure, the fix goes in and both subagents run again. When neither can fail it, write the acceptance sentence with your name and the date.</p>
+    </div>
+
+    <div class="def keep">
+      <h4>Phase 3 is closed when</h4>
+      <ul style="margin:0">
+        <li>The semi-final checks P9 and P10 each end with the statement "gold", or every unsettled item has your written ruling.</li>
+        <li>The final verification has run, both subagents failed to break the gold, and every item they raised is decided and logged with <em>introduced by</em> filled in.</li>
+        <li>You have read the finished files and the findings yourself, and accepted them, with the date.</li>
+      </ul>
+    </div>
+
+    <p class="note">Declaring gold is your act, not Claude's. The sentence in the README is "the annotator read and accepted this on &lt;date&gt;". Write what you did and did not do: reading the findings and directing every judgement call is one thing, reading the patent line by line yourself is another, and the README says which.</p>
+  </div>
+</section>
+
+<!-- ============================ 8. PATHWAYS ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>8 · Pathways track</span></div>
+  <h2><small>Chapter 8 · Proposed</small>The pathways track</h2>
+  <p class="lead span">A pathway is a chain of reaction records from a key starting material through intermediates to a product, scoped to a section or a route. <code>pathways.json</code> is built on top of the other two files, so it is checked last and its prompts are not yet written. This chapter fixes the shape of that work and proposes the file names, so the prompts can be written to match.</p>
+  <div class="cols">
+    <h3>What is different about pathways</h3>
+    <p>A reaction record is judged against the page. A pathway record is judged against the page <strong>and</strong> against <code>reactions.json</code>: every step it names must resolve to a reaction record, the product of step n must be a reactant of step n+1, and the route must be one the patent actually draws or describes, not one assembled from steps that happen to connect. The independent read therefore lists routes as the patent tells them, scheme by scheme and section by section.</p>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P12</span><h3>Identify every pathway the patent describes</h3><span class="chip">pathways</span></div>
+      <dl>
+        <dt>File</dt><dd><code>12-pathways-identification.md</code> (proposed)</dd>
+        <dt>Rule</dt><dd>Fresh session; <code>pathways.json</code> not opened. <code>reactions.json</code> may be consulted, because a pathway is defined in terms of it.</dd>
+        <dt>Output</dt><dd>One row per route: section, starting material, ordered intermediates, product, the lines and drawn schemes that tell it. Count at the top. Saved as <code>audit/pathways-read-from-patent.md</code>.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P13</span><h3>Reconcile the list against <code>pathways.json</code></h3><span class="chip">pathways</span></div>
+      <dl>
+        <dt>File</dt><dd><code>13-pathways-reconciliation.md</code> (proposed)</dd>
+        <dt>Output</dt><dd>Three tables: matched routes, routes the patent tells that the file lacks, routes in the file the patent does not tell (typically two schemes merged, or a route stitched across sections). Flag only.</dd>
+        <dt>Gate</dt><dd>Validate (P7), decide, fix (P8), re-count.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P14</span><h3>Verify every pathway record</h3><span class="chip">pathways</span></div>
+      <dl>
+        <dt>File</dt><dd><code>14-pathways-record-verification.md</code> (proposed)</dd>
+        <dt>Checks</dt><dd>Every step resolves to a <code>reaction_id</code>; products chain into reactants; identifiers resolve to compound records; scope and section are right; the drawn route and the recorded route agree in order and length; nothing is inferred that the patent does not draw or say. Flag only.</dd>
+      </dl>
+    </article>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P15</span><h3>Final gold check on <code>pathways.json</code></h3><span class="chip">pathways</span></div>
+      <dl>
+        <dt>File</dt><dd><code>15-pathways-final-gold-check.md</code> (proposed)</dd>
+        <dt>Rule</dt><dd>Re-derive every field, correct as you go, end with yes or no. Then the final verification (P11) covers this file too. Same gate as Chapter 7.</dd>
+      </dl>
+    </article>
+
+    <div class="note">Naming follows the existing convention: number, track, pass. Numbers 12 to 15 leave room for the validator, fix and final-verification prompts at 7, 8 and 11 that the desk sketch calls for. Appendix A has the full proposed list, including the zero-padding that keeps 10 sorting after 9.</div>
+  </div>
+</section>
+
+<!-- ============================ 9. THE GATE ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>9 · The gate</span></div>
+  <h2><small>Chapter 9</small>The gate: validate, decide, fix</h2>
+  <p class="lead span">Every flagging pass ends with a list and stops. What happens next is the same at every gate: Claude validates its own flags, you decide what survives, Claude applies exactly what you decided. This chapter is that procedure, the five decisions you can make, and the mistakes made before.</p>
+  <div class="cols">
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P7</span><h3>Findings validator: are the flags actually right?</h3><span class="chip">all tracks</span></div>
+      <dl>
+        <dt>File</dt><dd>proposed <code>07-all-findings-validation.md</code></dd>
+        <dt>Input</dt><dd>The open workbook rows from the pass just finished, the markdown, the file under test.</dd>
+        <dt>Claude does</dt><dd>For every row: re-reads the cited lines and the twin record, re-checks the arithmetic, and answers one question, is this finding true? Marks each row <strong>confirmed</strong>, <strong>withdrawn</strong> with the reason, or <strong>needs-decision</strong> where the page supports two readings or the answer is a convention rather than a fact. Groups rows that are one decision (the same lost range on seven records).</dd>
+        <dt>You receive</dt><dd>The workbook with the validator's verdict on every row and the groups marked. Nothing has been changed in the JSON.</dd>
+      </dl>
+    </article>
+
+    <h3>Your procedure, per gate</h3>
+    <ol>
+      <li><strong>Read the whole validated list once</strong> before deciding anything. Decide groups, not rows, where the validator grouped them.</li>
+      <li><strong>Open the page</strong> for every confirmed and needs-decision row. Read the cited line in the markdown, and when the markdown is the thing in doubt, the PDF. Never decide from the flag's own summary.</li>
+      <li><strong>Check the twin.</strong> A record with a sibling from another section is read with it before anything is called missing.</li>
+      <li><strong>Decide</strong>, one of the five below, and write decision and reason in the row. Skim the withdrawn rows; reopen any you disagree with.</li>
+      <li><strong>Run P8</strong> when every row has a decision.</li>
+      <li><strong>Read the diff</strong> between backup and result. A fix that touched more than the flag asked for is itself a flag.</li>
+    </ol>
+
+    <h3>The five decisions</h3>
+    <table class="tight">
+      <tr><th>Decision</th><th>Meaning</th><th>Status after</th></tr>
+      <tr><td><strong>FIX</strong></td><td>The flag is right. Apply as described.</td><td>decided → fixed → verified</td></tr>
+      <tr><td><strong>FIX-OTHER</strong></td><td>Real problem, wrong proposed correction. Write the right one.</td><td>decided → fixed → verified</td></tr>
+      <tr><td><strong>KEEP</strong></td><td>The record is right as it stands. Say why; if the reason is a convention, write it into the record's notes so the next reader does not flag it again.</td><td>closed by decision</td></tr>
+      <tr><td><strong>ADD FIELD</strong></td><td>The patent states something the schema cannot hold. Extend the schema, describe the field, then FIX.</td><td>decided → schema → fixed</td></tr>
+      <tr><td><strong>UNRESOLVED</strong></td><td>Two readings, no way to choose from the page. Record both in notes. Never average them.</td><td>open, both readings</td></tr>
+    </table>
+    <p>A flag is never deleted. A wrong flag is closed as <strong>withdrawn</strong> with the reason, by the validator or by you, because a withdrawn flag teaches the next reader as much as a fixed one.</p>
+
+    <article class="step">
+      <div class="step-head"><span class="pn todo">P8</span><h3>Apply the decided fixes</h3><span class="chip">all tracks</span></div>
+      <dl>
+        <dt>File</dt><dd>proposed <code>08-all-apply-decided-fixes.md</code></dd>
+        <dt>Input</dt><dd>The workbook rows with status <em>decided</em>, and nothing else. A row without a decision is not touched.</dd>
+        <dt>Claude does</dt><dd>Copies the file to <code>audit/&lt;file&gt;.BACKUP-pre-&lt;gate&gt;.json</code>. Applies each decided row exactly as written, and only that. Writes a note on the record where the decision was KEEP or ADD FIELD. Re-validates against the schema, re-runs the mechanical counts and the identifier join, and logs every change against its finding id.</dd>
+        <dt>You receive</dt><dd>The change log, one line per finding id, and the diff summary: records touched, fields touched, counts before and after.</dd>
+      </dl>
+    </article>
+
+    <h3>Decisions that come up on every patent</h3>
+    <table class="tight">
+      <tr><th>Situation</th><th>Usual ruling</th></tr>
+      <tr><td>One step told in claims, summary and description</td><td>Keep a record per section when each carries substance the others lack. Merge only strict subsets.</td></tr>
+      <tr><td>One substance, several names</td><td>One record; other names go to aliases. Original-language names are kept as aliases, never dropped.</td></tr>
+      <tr><td>One substance, two roles or two charges in different sections</td><td>Keep split. Merging destroys a fact.</td></tr>
+      <tr><td>Two compounds, one molecular formula</td><td>Two records. Formula is never an identity key.</td></tr>
+      <tr><td>Drawn structure disagrees with the name</td><td>Check the PDF drawing atom by atom. The drawing usually wins over a machine-rendered name; record which you followed and why.</td></tr>
+      <tr><td>Range stored as one number</td><td>FIX to min and max; point field null. Open bound keeps its side, other end null.</td></tr>
+      <tr><td>Value only in prose or notes</td><td>FIX into a structured field, or ADD FIELD.</td></tr>
+      <tr><td>Patent's own arithmetic or printing is wrong</td><td>KEEP as printed, contradiction written into notes. Never silently correct the patent.</td></tr>
+      <tr><td>Machine translation names the wrong compound</td><td>Follow the original-language text; keep the wrong rendering as an alias with a note.</td></tr>
+      <tr><td>Field is general knowledge, not in the patent</td><td>Allowed, but the README must say the field is not a reading of the patent.</td></tr>
+    </table>
+
+    <h3>Mistakes already made once</h3>
+    <ul>
+      <li>Letting the identification reader see the JSON. The count moved by eight.</li>
+      <li>Merging on molecular formula and fusing two isomers into one record.</li>
+      <li>Reading "below 10%" as a yield of 10.</li>
+      <li>A fixing pass marking exact values approximate, and assigning an analytical method by section adjacency. Caught only by the final verification.</li>
+      <li>Taking a wrong OCR of the product name at face value. It named a different registered herbicide.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ 10. AUDIT TRAIL ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>10 · The audit trail</span></div>
+  <h2><small>Chapter 10</small>The audit trail: files, workbook and templates</h2>
+  <p class="lead span">Gold without a trail is an opinion. Every list, flag, decision and change lives in <code>audit/</code>, and a reader who was not there must be able to reconstruct why every record is the way it is.</p>
+  <div class="cols">
+    <h3>The files, and who writes them</h3>
+    <table class="tight">
+      <tr><th>File</th><th>Written in</th><th>Holds</th></tr>
+      <tr><td><code>reactions-read-from-patent.md</code></td><td>P1, P2</td><td>Independent list with count; then the three reconciliation tables</td></tr>
+      <tr><td><code>compounds-read-from-patent.md</code></td><td>P3, P4</td><td>Same, for compounds</td></tr>
+      <tr><td><code>pathways-read-from-patent.md</code></td><td>P12, P13</td><td>Same, for pathways</td></tr>
+      <tr><td><code>AUDIT-LOG.md</code></td><td>P5, P6, P9, P10, P11, P14, P15</td><td>One heading per record per pass: what was checked, what passed, what was flagged or corrected, with lines</td></tr>
+      <tr><td><code>RUN-NOTES.md</code></td><td>you, throughout</td><td>Prose. What is odd about this patent, what the vision pass got wrong, what conventions you set and why</td></tr>
+      <tr><td><code>GOLDEN-DATASET-FINDINGS.xlsx</code></td><td>every pass; P7 adds verdicts, P8 adds status</td><td>Every flag and its decision. One sheet per patent; reactions half, compounds half, pathways half</td></tr>
+      <tr><td><code>*.ORIGINAL</code>, <code>*.BACKUP-pre-*.json</code></td><td>P8 and the final check, before every fix</td><td>The file as it was. Never edited</td></tr>
+      <tr><td><code>README.md</code></td><td>you, at the end</td><td>What is here, what is not, counts, caveats, acceptance date</td></tr>
+    </table>
+
+    <h3>Workbook columns</h3>
+    <p>One row per finding. Ids are prefixed by track and never reused: <code>F-001</code> reactions, <code>C-001</code> compounds, <code>P-001</code> pathways.</p>
+    <table class="tight">
+      <tr><th>Column</th><th>Content</th></tr>
+      <tr><td>id</td><td>F-/C-/P- number</td></tr>
+      <tr><td>prompt</td><td>P1 … P15, or GATE for findings you raised yourself</td></tr>
+      <tr><td>record</td><td>index and <code>reaction_id</code> or <code>identifier</code></td></tr>
+      <tr><td>field</td><td>the JSON path, e.g. <code>conditions.time_h</code></td></tr>
+      <tr><td>line(s)</td><td>markdown line numbers</td></tr>
+      <tr><td>patent says</td><td>quoted, in the patent's language plus English</td></tr>
+      <tr><td>record has</td><td>the current value, verbatim</td></tr>
+      <tr><td>should be</td><td>the proposed value</td></tr>
+      <tr><td>class</td><td>MISSING · WRONG · EXTRA · DUPLICATE · RANGE_LOST · NO_FIELD · PROSE_ONLY · INCONSISTENT · UNRESOLVED</td></tr>
+      <tr><td>validator</td><td>confirmed · withdrawn · needs-decision, with the P7 reason</td></tr>
+      <tr><td>decision</td><td>FIX · FIX-OTHER · KEEP · ADD FIELD · UNRESOLVED · WITHDRAWN, with reason</td></tr>
+      <tr><td>status</td><td>open · decided · fixed · verified · closed by decision</td></tr>
+      <tr><td>introduced by</td><td>extraction, or annotation (a defect a fixing pass created, usually found by the final verification)</td></tr>
+      <tr><td>who / date</td><td>your initials and the date of the decision</td></tr>
+    </table>
+    <p class="small muted">Write every row so a beginner with no context can understand what is wrong: what the patent says, what the record has, what it should be, and the line.</p>
+
+    <h3>Template: independent list header</h3>
+<pre># &lt;PATENT_ID&gt; · P1 independent reaction list
+Source: input/&lt;ID&gt;-enriched-numbered.md, N lines, all read
+Extraction output NOT opened. Disclosure: &lt;anything seen&gt;
+Date: YYYY-MM-DD   Reader: Claude session &lt;n&gt;
+Re-verified by: second reader, YYYY-MM-DD, agrees / differs (see below)
+
+COUNT: &lt;n&gt; reactions   (&lt;a&gt; described, &lt;b&gt; performed)
+
+## Mechanical counts
+## Compound key
+## Reactions, one per line, with section and lines</pre>
+
+    <h3>Template: audit log entry</h3>
+<pre>## [P5] record 33 · Example 10 Step 1 · lines 537-541
+Read: full md, pass 1 and pass 2.
+Checked: compounds (5), conditions, workup, yield, generated labels.
+PASS: reactants, product, yield 76.59 (L541).
+FLAG F-041 conditions.stages: two-stage run, stage-1
+  80-85 °C / 8 h absent (L537). class NO_FIELD.
+FLAG F-042 workup.ph_target: pH 8-9 then 2-3, record
+  holds 2.0 only (L537). class RANGE_LOST.</pre>
+
+    <h3>Template: README skeleton</h3>
+<pre># &lt;PATENT_ID&gt; · what is here and what is not
+Both files are gold / reactions gold, compounds pending.
+Accepted by &lt;name&gt; on &lt;date&gt;. Read the findings and
+directed every judgement call; did / did not read the
+patent line by line independently.
+    reactions.json   N records   (extraction delivered M)
+    compounds.json   N records   covering K distinct compounds
+## What the gold holds        ## Coverage, checked mechanically
+## Fields added and why       ## Empty fields are empty on purpose
+## Deliberate splits and merges
+## Caveats (no human line read; extraction and audit both Claude)
+## Files</pre>
+  </div>
+</section>
+
+<!-- ============================ 11. FINISHING ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>11 · Finishing</span></div>
+  <h2><small>Chapter 11</small>Finishing: definition of done and hand-over</h2>
+  <div class="cols">
+    <h3>Definition of done, per patent</h3>
+    <ul class="check">
+      <li>Phase 1, 2 and 3 closed for reactions and for compounds, per the close-out boxes in Chapters 5 to 7. Pathways likewise once P12 to P15 exist.</li>
+      <li>Every workbook row has a decision and a status other than open, or is marked UNRESOLVED with both readings in the record's notes.</li>
+      <li>Both JSON files validate against their schemas with zero errors. If fields were added, the schema file is committed alongside and each new field carries a description saying what it holds and why the original could not.</li>
+      <li>Every <code>identifier</code> referenced by <code>reactions.json</code> resolves to a record in <code>compounds.json</code>. Every reaction referenced by <code>pathways.json</code> resolves to a record in <code>reactions.json</code>.</li>
+      <li>The final verification (P11) has run and neither subagent could fail the gold.</li>
+      <li><code>audit/README.md</code> written from the skeleton, with counts, additions, merges, splits, caveats and the acceptance sentence.</li>
+      <li><code>RUN-NOTES.md</code> records anything a future reader would otherwise rediscover the hard way.</li>
+    </ul>
+
+    <h3>Hand-over</h3>
+    <ol>
+      <li>Copy <code>input/pdf/&lt;ID&gt;.pdf</code>, the enriched numbered markdown, <code>output/reactions.json</code>, <code>output/compounds.json</code>, <code>output/pathways.json</code> and the whole <code>audit/</code> folder into <code>goldenPatents/&lt;PATENT_ID&gt;/</code> under <code>input/</code>, <code>output/</code>, <code>audit/</code>.</li>
+      <li>Add the patent's row to the table in the root <code>goldenPatents/README.md</code>: id, record counts, state. Add its paragraph below, in the form the existing entries use: what the patent is, what the gold holds, what was changed and why, what is deliberately not here.</li>
+      <li>Commit. The commit message names the patent and the acceptance date.</li>
+    </ol>
+
+    <h3>Working across sessions</h3>
+    <p>Context runs out. Before a session ends, ask Claude to write where it is (phase, prompt, record index, open flags) to <code>RUN-NOTES.md</code>. The next session starts by reading that, the independent list, and the audit log for the current pass. An identification pass that is interrupted is restarted from the top in a fresh session; a verification pass resumes at the recorded index.</p>
+
+    <h3>Working in parallel</h3>
+    <p>The reactions and compounds tracks are independent through Phase 2 and can run in two sessions at once. They meet at Gate 2, because a compound added or merged changes what a reaction record's identifiers resolve to. Do not run Phase 3 on either file until Phase 2 is closed on both.</p>
+
+    <h3>When the markdown is wrong</h3>
+    <p>Claude reads the markdown, not the PDF. When a flag makes you suspect the markdown itself, look at the PDF page. If the vision pass misread something, the fix belongs in <code>input/</code> (the vision JSON and the regenerated markdown), it is written up in <code>RUN-NOTES.md</code>, and any records that depended on it go back through P5 or P6. The original-language text is authoritative; the machine English is a convenience.</p>
+
+    <div class="def keep">
+      <h4>The one sentence to remember</h4>
+      <p style="margin:0">Claude reads and flags. You decide and log. Nothing enters the gold that you did not decide, and nothing you decided is without a line number.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ APPENDICES ============================ -->
+<section class="sheet">
+  <div class="running"><span><b>Golden Patents Manual</b></span><span>Appendix A · Prompt index &nbsp;·&nbsp; Appendix B · Glossary</span></div>
+  <h2><small>Appendix A</small>Prompt index</h2>
+  <p class="small muted" style="max-width:none">Numbers in this manual are roles, and the roles are stable even while the files are being revised. The <em>file today</em> column is the folder as it is on 2026-09-03. The <em>proposed name</em> column is one suggestion for the revised set: zero-padded so 10 sorts after 9, track second so a sort by name groups a track, and <code>all</code> as the track for passes that run over every file.</p>
+  <table>
+    <tr><th>Role</th><th>What it does</th><th>Phase</th><th>Track</th><th>File today</th><th>Proposed name</th><th>Opens JSON under test</th><th>Flags / fixes</th></tr>
+    <tr><td>P1</td><td>read the patent, count the reactions</td><td>1 Count</td><td>reactions</td><td><code>1-reactions-identification.md</code></td><td><code>01-reactions-identification.md</code></td><td>never</td><td>lists</td></tr>
+    <tr><td>P2</td><td>reconcile the list against <code>reactions.json</code></td><td>1 Count</td><td>reactions</td><td><code>2-reactions-reconciliation.md</code></td><td><code>02-reactions-reconciliation.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr><td>P3</td><td>read the patent, list the compounds</td><td>1 Count</td><td>compounds</td><td><code>3-compounds-identification.md</code></td><td><code>03-compounds-identification.md</code></td><td>never</td><td>lists</td></tr>
+    <tr><td>P4</td><td>reconcile the list against <code>compounds.json</code></td><td>1 Count</td><td>compounds</td><td><code>4-compounds-reconciliation.md</code></td><td><code>04-compounds-reconciliation.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr><td>P5</td><td>verify every field of every reaction record</td><td>2 Content</td><td>reactions</td><td><code>5-reactions-record-verification.md</code></td><td><code>05-reactions-record-verification.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr><td>P6</td><td>verify every field of every compound record</td><td>2 Content</td><td>compounds</td><td><code>6-compounds-record-verification.md</code></td><td><code>06-compounds-record-verification.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr><td>P7</td><td>findings validator: is each flag actually right?</td><td>every gate</td><td>all</td><td class="muted">not yet a file</td><td><code>07-all-findings-validation.md</code></td><td>yes</td><td>verdicts on flags</td></tr>
+    <tr><td>P8</td><td>apply the fixes you decided, backup, log</td><td>every gate</td><td>all</td><td class="muted">not yet a file</td><td><code>08-all-apply-decided-fixes.md</code></td><td>yes</td><td><strong>fixes</strong>, decided only</td></tr>
+    <tr><td>P9</td><td>semi-final verification, re-derive every field</td><td>3 Decide</td><td>reactions</td><td><code>7-reactions-final-gold-check.md</code></td><td><code>09-reactions-semifinal-verification.md</code></td><td>yes</td><td><strong>fixes</strong>, logged</td></tr>
+    <tr><td>P10</td><td>semi-final verification, re-derive every field</td><td>3 Decide</td><td>compounds</td><td><code>8-compounds-final-gold-check.md</code></td><td><code>10-compounds-semifinal-verification.md</code></td><td>yes</td><td><strong>fixes</strong>, logged</td></tr>
+    <tr><td>P11</td><td>final verification: two subagents try to fail the gold</td><td>3 Decide</td><td>all</td><td class="muted">not yet a file</td><td><code>11-all-final-verification.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr class="muted"><td>P12</td><td>read the patent, list the pathways</td><td>1 Count</td><td>pathways</td><td>—</td><td><code>12-pathways-identification.md</code></td><td>never</td><td>lists</td></tr>
+    <tr class="muted"><td>P13</td><td>reconcile against <code>pathways.json</code></td><td>1 Count</td><td>pathways</td><td>—</td><td><code>13-pathways-reconciliation.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr class="muted"><td>P14</td><td>verify every pathway record</td><td>2 Content</td><td>pathways</td><td>—</td><td><code>14-pathways-record-verification.md</code></td><td>yes</td><td>flags</td></tr>
+    <tr class="muted"><td>P15</td><td>semi-final verification of pathways</td><td>3 Decide</td><td>pathways</td><td>—</td><td><code>15-pathways-final-gold-check.md</code></td><td>yes</td><td><strong>fixes</strong>, logged</td></tr>
+  </table>
+  <p class="small muted">Every prompt ends by asking you whether anything is unclear before it starts, and tells Claude to stop and ask rather than guess when stuck. Answer those questions in the session and copy anything that amounts to a convention into <code>RUN-NOTES.md</code>.</p>
+
+  <h2 style="margin-top:7mm"><small>Appendix B</small>Glossary</h2>
+  <div class="cols">
+    <table class="tight">
+      <tr><td><strong>gold</strong></td><td>A file every record of which meets the five conditions in Chapter 1, accepted by a named person on a date.</td></tr>
+      <tr><td><strong>extraction</strong></td><td>The pipeline's output, the JSON under test. Never a standard.</td></tr>
+      <tr><td><strong>enriched numbered markdown</strong></td><td>The patent as text, one number per line, original language followed by an indented English line, drawings as <code>IMAGE_EXTRACT</code> blocks. The only source Claude reads.</td></tr>
+      <tr><td><strong>record</strong></td><td>One object in a JSON array: one reaction, one compound, one pathway.</td></tr>
+      <tr><td><strong>identifier</strong></td><td>The compound name a record is keyed on. The join between <code>reactions.json</code> and <code>compounds.json</code>, matched on identifier or alias.</td></tr>
+      <tr><td><strong>alias</strong></td><td>Another name for the same substance on the same record: the original-language string, a synonym, a SMILES, an InChIKey.</td></tr>
+      <tr><td><strong>described vs performed</strong></td><td>A reaction told in prose (claims, summary, description) versus one actually run in an example with charges and a yield. Described repeats are one entry; performed repeats are one each.</td></tr>
+      <tr><td><strong>twin</strong></td><td>Two records of one step from different sections. Read together; they cover each other.</td></tr>
+    </table>
+    <table class="tight">
+      <tr><td><strong>split</strong></td><td>One substance deliberately held as two records because it plays two roles or is charged two ways. Disambiguate on role and section.</td></tr>
+      <tr><td><strong>class term</strong></td><td>A word the claims recite in place of a substance: "an oxidant", "a base". Recorded as a compound with no structure.</td></tr>
+      <tr><td><strong>range</strong></td><td>Two numbers. Stored as min and max; the point-valued field stays null. An open bound has one side null.</td></tr>
+      <tr><td><strong>generated field</strong></td><td>A label the model assigns (reaction class, mechanism, tags). Checked against chemistry and against sibling records, not against the page.</td></tr>
+      <tr><td><strong>flag</strong></td><td>A finding raised by a pass. Becomes a workbook row. Never deleted; withdrawn with a reason if wrong.</td></tr>
+      <tr><td><strong>gate</strong></td><td>The point at the end of a phase where you decide every flag before anything changes.</td></tr>
+      <tr><td><strong>closed by decision</strong></td><td>A flag you ruled KEEP, with the reason written into the record and the workbook.</td></tr>
+      <tr><td><strong>findings validator</strong></td><td>The pass (P7) that re-checks every flag against the page before you see it, and marks it confirmed, withdrawn or needs-decision.</td></tr>
+      <tr><td><strong>semi-final verification</strong></td><td>The prompt (P9, P10) that re-derives every field of every record and corrects as it goes.</td></tr>
+      <tr><td><strong>final verification</strong></td><td>Two subagents with no context (P11), told to try to fail the gold. If neither can, it is gold. The defence against defects the fixing passes introduced.</td></tr>
+      <tr><td><strong>context-free reader</strong></td><td>A fresh Claude session or subagent that has seen none of the earlier work, used to re-verify a list or a finished file.</td></tr>
+    </table>
+  </div>
+</section>
