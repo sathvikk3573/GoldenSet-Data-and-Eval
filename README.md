@@ -24,24 +24,6 @@ back to a line in it, and every finding was recorded against a line number.
 Per-patent notes, the conventions the files follow, the structure layer and what is
 deliberately left out are in [data/README.md](data/README.md).
 
-## Four caveats to carry with the data
-
-1. **No human has read this yet**, except for WO2024109718A1, which the annotator read
-   and accepted on 2026-09-02, and WO2022024094A1, where the reviewer made every
-   judgement call. Every other check in every run was automated or made by a model.
-2. **The extraction and the audit were both Claude.** Where the model misread
-   something and the audit read it the same way, nothing in this process can see it.
-3. **The four shipped patents predate the current prompt set.** They were built with the
-   earlier eight-prompt version, so they carry the old `audit/` layout (`AUDIT-LOG.md`,
-   `RUN-NOTES.md`, `GOLDEN-DATASET-FINDINGS.xlsx`) rather than the four CSVs
-   [prompts/README.md](prompts/README.md) now mandates, and none of them went through
-   the pathways passes (10–12) as written.
-4. **`pathways.json` is not gold.** In all four patents it is raw pipeline output (the
-   A3 pass); prompts 1–8 only ever touched reactions and compounds. In CN109678767A it
-   is known stale — it still references the pre-split reaction ids and the old count of
-   36, because the annotator directed that only `reactions.json` be edited. Treat the
-   pathways column below as a record count, not a verified one.
-
 ## Where to start
 
 - Making gold for a new patent → [manual/](manual/), then [prompts/README.md](prompts/README.md)
