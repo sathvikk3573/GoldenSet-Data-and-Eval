@@ -36,9 +36,10 @@
     "id": "CN112645853A_2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
     "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
     "smiles": null,
-    "smiles_source": "none:markush",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "Markush: alkoxy is a variable substituent"
   },
   {
     "patent_id": "CN112645853A",
@@ -95,9 +96,10 @@
     "id": "CN112645853A_methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
     "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H10BrClO4S",
-    "molecular_weight": 341.61
+    "molecular_weight": 341.61,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -148,7 +150,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr",
     "smiles_source": "opsin",
     "molecular_formula": "C9H7BrClO4S-",
-    "molecular_weight": 326.58
+    "molecular_weight": 326.58,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -189,9 +192,10 @@
     "id": "CN112645853A_tembotrione",
     "compound_uuid": "2bddf4b9-7126-5d6a-8e7b-0fbf29f0f7c8",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C17H16ClF3O6S",
-    "molecular_weight": 440.82
+    "molecular_weight": 440.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -231,9 +235,10 @@
     "id": "CN112645853A_tefuryltrione",
     "compound_uuid": "e7de7e58-057b-523c-bc97-5053f3f38f34",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC1CCCO1",
-    "smiles_source": "patent_scheme+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C20H23ClO7S",
-    "molecular_weight": 442.92
+    "molecular_weight": 442.92,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -352,9 +357,10 @@
     "id": "CN112645853A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
     "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C11H10ClF3O5S",
-    "molecular_weight": 346.71
+    "molecular_weight": 346.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -472,9 +478,10 @@
     "id": "CN112645853A_2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic_3607b6e9",
     "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C14H17ClO6S",
-    "molecular_weight": 348.8
+    "molecular_weight": 348.8,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -509,7 +516,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
     "smiles_source": "pubchem",
     "molecular_formula": "C14H13NO7S",
-    "molecular_weight": 339.33
+    "molecular_weight": 339.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -542,9 +550,10 @@
     "id": "CN112645853A_the methyl ester of the target compound",
     "compound_uuid": "92dfd126-3ecb-5eaf-b645-49f5bef10992",
     "smiles": null,
-    "smiles_source": "none:reference",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "refers to another record"
   },
   {
     "patent_id": "CN112645853A",
@@ -603,7 +612,8 @@
     "smiles": "COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
     "smiles_source": "opsin",
     "molecular_formula": "C10H11ClO5S",
-    "molecular_weight": 278.71
+    "molecular_weight": 278.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -636,9 +646,10 @@
     "id": "CN112645853A_methanol",
     "compound_uuid": "87198273-16d4-5204-82aa-3541557837d5",
     "smiles": "CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH4O",
-    "molecular_weight": 32.04
+    "molecular_weight": 32.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -673,9 +684,10 @@
     "id": "CN112645853A_tertiary alcohol",
     "compound_uuid": "f286ca1f-42c9-57bd-84b7-941c17e4c88c",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class of alcohols"
   },
   {
     "patent_id": "CN112645853A",
@@ -708,9 +720,10 @@
     "id": "CN112645853A_starting material",
     "compound_uuid": "203ea5b7-fcde-53b9-bbad-7c9a8b4735d0",
     "smiles": null,
-    "smiles_source": "none:reference",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "refers to another record"
   },
   {
     "patent_id": "CN112645853A",
@@ -743,9 +756,10 @@
     "id": "CN112645853A_basic substance",
     "compound_uuid": "270ee368-f0b4-5278-bdbd-d156292229b1",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "CN112645853A",
@@ -791,10 +805,11 @@
     "notes": "Anaphoric reference in [0061]: the etherification of the benzoate salt forms the target compound. This section never names it, so per rule 6 it stays unresolved and unresolved_reference is true; it is not resolved from any other section. The 93.8 yield is printed as the maximum yield of the two step reaction of this method, not of one step, and 98.7 is an HPLC content figure also printed as a maximum. compound_class:intermediate is supported by this section, which says the yield and quality of the target compound safeguard the final synthesis of tembotrione and tefuryltrione technical material. is_section_product false: this section states beneficial effects, it contains no procedure and isolates no product of its own.",
     "id": "CN112645853A_target compound",
     "compound_uuid": "0003b5b5-9822-53c6-bb79-80d40b2a0d74",
-    "smiles": null,
-    "smiles_source": "none:reference",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "identifier_name",
+    "molecular_formula": "C11H10ClF3O5S",
+    "molecular_weight": 346.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -835,9 +850,10 @@
     "id": "CN112645853A_tert-butanol",
     "compound_uuid": "b630bbfb-b051-53f7-90e0-385f00371d1f",
     "smiles": "CC(C)(C)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H10O",
-    "molecular_weight": 74.12
+    "molecular_weight": 74.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -878,9 +894,10 @@
     "id": "CN112645853A_tert-amyl alcohol",
     "compound_uuid": "66624e54-de61-552f-a6f2-ca75e17dcd3c",
     "smiles": "CCC(C)(C)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C5H12O",
-    "molecular_weight": 88.15
+    "molecular_weight": 88.15,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -921,9 +938,10 @@
     "id": "CN112645853A_2-methyl-2-pentanol",
     "compound_uuid": "ad92fe24-113e-5321-82ca-4e9e0f6b17af",
     "smiles": "CCCC(C)(C)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H14O",
-    "molecular_weight": 102.18
+    "molecular_weight": 102.18,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -965,9 +983,10 @@
     "id": "CN112645853A_sodium hydroxide",
     "compound_uuid": "9a91a7e5-bbba-5562-be94-e32114ee612e",
     "smiles": "[Na+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNaO",
-    "molecular_weight": 40.0
+    "molecular_weight": 40.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1009,9 +1028,10 @@
     "id": "CN112645853A_potassium hydroxide",
     "compound_uuid": "0e7ddb62-f823-513f-9e9e-af73a74e6115",
     "smiles": "[K+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HKO",
-    "molecular_weight": 56.11
+    "molecular_weight": 56.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1055,7 +1075,8 @@
     "smiles": "CC(C)(C)[O-].[Na+]",
     "smiles_source": "opsin",
     "molecular_formula": "C4H9NaO",
-    "molecular_weight": 96.1
+    "molecular_weight": 96.1,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1098,9 +1119,10 @@
     "id": "CN112645853A_potassium tert-butoxide",
     "compound_uuid": "a400645b-36e3-5f48-a1ec-a8dd2e235a93",
     "smiles": "CC(C)(C)[O-].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H9KO",
-    "molecular_weight": 112.21
+    "molecular_weight": 112.21,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1141,9 +1163,10 @@
     "id": "CN112645853A_sodium hydride",
     "compound_uuid": "1a0d35de-031c-50cf-a4a3-60b904e47a4b",
     "smiles": "[H-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNa",
-    "molecular_weight": 24.0
+    "molecular_weight": 24.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1185,9 +1208,10 @@
     "id": "CN112645853A_potassium hydride",
     "compound_uuid": "183f427f-2dd8-5dae-963d-00b8856a8060",
     "smiles": "[H-].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HK",
-    "molecular_weight": 40.11
+    "molecular_weight": 40.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1228,9 +1252,10 @@
     "id": "CN112645853A_sodium metal",
     "compound_uuid": "21cccd31-3316-5401-99a2-b211ab90fb3c",
     "smiles": "[Na]",
-    "smiles_source": "curated+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "Na",
-    "molecular_weight": 22.99
+    "molecular_weight": 22.99,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1271,9 +1296,10 @@
     "id": "CN112645853A_potassium metal",
     "compound_uuid": "81005893-30de-5efe-a01e-09d2b59160b3",
     "smiles": "[K]",
-    "smiles_source": "curated+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "K",
-    "molecular_weight": 39.1
+    "molecular_weight": 39.1,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1319,9 +1345,10 @@
     "id": "CN112645853A_2,2,2-trifluoroethanol",
     "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
     "smiles": "OCC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3F3O",
-    "molecular_weight": 100.04
+    "molecular_weight": 100.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1368,9 +1395,10 @@
     "id": "CN112645853A_tetrahydrofurfuryl alcohol",
     "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
     "smiles": "OCC1CCCO1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C5H10O2",
-    "molecular_weight": 102.13
+    "molecular_weight": 102.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1411,9 +1439,10 @@
     "id": "CN112645853A_acetonitrile",
     "compound_uuid": "74811e33-98e6-5f4e-bd23-e24020e144cf",
     "smiles": "CC#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3N",
-    "molecular_weight": 41.05
+    "molecular_weight": 41.05,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1454,9 +1483,10 @@
     "id": "CN112645853A_N,N-dimethylformamide",
     "compound_uuid": "ca19dc9e-b173-5f5f-be05-b793945279a5",
     "smiles": "CN(C)C=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H7NO",
-    "molecular_weight": 73.09
+    "molecular_weight": 73.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1497,9 +1527,10 @@
     "id": "CN112645853A_dimethyl sulfoxide",
     "compound_uuid": "17c4817e-1e83-5d46-9652-484ecff99b6d",
     "smiles": "CS(C)=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H6OS",
-    "molecular_weight": 78.14
+    "molecular_weight": 78.14,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1541,9 +1572,10 @@
     "id": "CN112645853A_tetrahydrofuran",
     "compound_uuid": "6e14573d-9a0f-546d-8ad7-841fc46f46a0",
     "smiles": "C1CCOC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H8O",
-    "molecular_weight": 72.11
+    "molecular_weight": 72.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1580,9 +1612,10 @@
     "id": "CN112645853A_hydrochloric acid",
     "compound_uuid": "36625600-8db0-5e7c-9f1a-93a0752793c1",
     "smiles": "Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HCl",
-    "molecular_weight": 36.46
+    "molecular_weight": 36.46,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1623,9 +1656,10 @@
     "id": "CN112645853A_water",
     "compound_uuid": "5507a801-6f00-56fd-ad64-521a8318eb7b",
     "smiles": "O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O",
-    "molecular_weight": 18.02
+    "molecular_weight": 18.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1723,9 +1757,10 @@
     "id": "CN112645853A_sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
     "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C9H7BrClNaO4S",
-    "molecular_weight": 349.56
+    "molecular_weight": 349.56,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1762,9 +1797,10 @@
     "id": "CN112645853A_sodium 2,2,2-trifluoroethoxide",
     "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192",
     "smiles": "[Na+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3NaO",
-    "molecular_weight": 122.02
+    "molecular_weight": 122.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1846,9 +1882,10 @@
     "id": "CN112645853A_potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
     "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C9H7BrClKO4S",
-    "molecular_weight": 365.67
+    "molecular_weight": 365.67,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1885,9 +1922,10 @@
     "id": "CN112645853A_sodium (tetrahydrofuran-2-yl)methoxide",
     "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001",
     "smiles": "[Na+].[O-]CC1CCCO1",
-    "smiles_source": "patent_drawing+opsin",
+    "smiles_source": "opsin",
     "molecular_formula": "C5H9NaO2",
-    "molecular_weight": 124.11
+    "molecular_weight": 124.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1924,9 +1962,10 @@
     "id": "CN112645853A_potassium (tetrahydrofuran-2-yl)methoxide",
     "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9",
     "smiles": "[K+].[O-]CC1CCCO1",
-    "smiles_source": "patent_drawing+opsin",
+    "smiles_source": "opsin",
     "molecular_formula": "C5H9KO2",
-    "molecular_weight": 140.22
+    "molecular_weight": 140.22,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1962,9 +2001,10 @@
     "id": "CN112645853A_potassium 2,2,2-trifluoroethoxide",
     "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31",
     "smiles": "[K+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3KO",
-    "molecular_weight": 138.13
+    "molecular_weight": 138.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1999,9 +2039,10 @@
     "id": "CN112645853A_benzyl alcohol",
     "compound_uuid": "948c99b0-5588-56ab-a986-48c98b3a8578",
     "smiles": "OCc1ccccc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H8O",
-    "molecular_weight": 108.14
+    "molecular_weight": 108.14,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2037,9 +2078,10 @@
     "id": "CN112645853A_dibenzyl ether type compounds",
     "compound_uuid": "6cc97b75-3ff0-5ffe-879d-0c1d82f70325",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
-    "smiles_source": "patent_scheme",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C18H16Cl2O9S2",
-    "molecular_weight": 511.36
+    "molecular_weight": 511.36,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2072,9 +2114,10 @@
     "id": "CN112645853A_double-attachment impurity",
     "compound_uuid": "9a1e5bac-1e3c-53b7-aeab-8393770f3057",
     "smiles": null,
-    "smiles_source": "none:unresolved",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "describes an impurity, never names it"
   },
   {
     "patent_id": "CN112645853A",
@@ -2109,9 +2152,10 @@
     "id": "CN112645853A_alkali metal alkoxide",
     "compound_uuid": "e3610482-c4d2-5ed1-bfbd-84706690c3cd",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "CN112645853A",
@@ -2145,10 +2189,11 @@
     "notes": "Claim 1 (line 47): the benzoate salt is reacted with an alcohol in the presence of a basic substance. Claim 5 (line 65) narrows it to 2,2,2-trifluoroethanol or 2-tetrahydrofuranmethanol and claim 5 para 2 gives the salt-to-alcohol molar ratio. Claim 7 (line 79) also uses it for the alkoxide preparation. A class term, so resolved is false; the two specific alcohols are separate records. commercially_available true: both alcohols claim 5 names are charged as bought material, no step of this patent prepares them.",
     "id": "CN112645853A_alcohol",
     "compound_uuid": "baad94da-93de-5bda-a348-61c7a8915189",
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CCO",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C2H6O",
+    "molecular_weight": 46.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2182,9 +2227,10 @@
     "id": "CN112645853A_alkali metal",
     "compound_uuid": "654a61d1-c188-56dd-bbe4-c96293755b6b",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a group of elements"
   },
   {
     "patent_id": "CN112645853A",
@@ -2217,9 +2263,10 @@
     "id": "CN112645853A_base",
     "compound_uuid": "8563aa39-f682-5aa0-8762-f92d2a653c38",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "CN112645853A",
@@ -2253,9 +2300,10 @@
     "id": "CN112645853A_acid",
     "compound_uuid": "4cb556d6-8be9-5345-8d87-bf32fd799ea8",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "CN112645853A",
@@ -2289,9 +2337,10 @@
     "id": "CN112645853A_ROH",
     "compound_uuid": "67e7704e-77ef-54b5-b46c-5cdf89311f71",
     "smiles": null,
-    "smiles_source": "none:markush",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "Markush: R is a variable"
   },
   {
     "patent_id": "CN112645853A",
@@ -2323,9 +2372,10 @@
     "id": "CN112645853A_ROM",
     "compound_uuid": "eb32b2e4-7344-597b-b698-311e9485db20",
     "smiles": null,
-    "smiles_source": "none:markush",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "Markush: R and M are variables"
   },
   {
     "patent_id": "CN112645853A",
@@ -2359,9 +2409,10 @@
     "id": "CN112645853A_HPPD",
     "compound_uuid": "54d31a2b-6a76-509e-af57-3872368a417e",
     "smiles": null,
-    "smiles_source": "none:unresolved",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "an enzyme, a protein: no single small-molecule structure"
   },
   {
     "patent_id": "CN112645853A",
@@ -2396,7 +2447,8 @@
     "smiles": "O=C([O-])C(=O)Cc1ccc(O)cc1",
     "smiles_source": "opsin",
     "molecular_formula": "C9H7O4-",
-    "molecular_weight": 179.15
+    "molecular_weight": 179.15,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2431,9 +2483,10 @@
     "id": "CN112645853A_benzyl bromide",
     "compound_uuid": "a37bed33-3379-54fc-becb-371f59bd41ec",
     "smiles": "BrCc1ccccc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H7Br",
-    "molecular_weight": 171.04
+    "molecular_weight": 171.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2467,9 +2520,10 @@
     "id": "CN112645853A_triketones",
     "compound_uuid": "c0ccb0c2-ea6f-5c94-b6cd-2f1d19bf7769",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a family"
   },
   {
     "patent_id": "CN112645853A",
@@ -2503,9 +2557,10 @@
     "id": "CN112645853A_pyrazolones",
     "compound_uuid": "ac5c5705-3fbc-5002-a00f-41ef0d20d8f2",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a family"
   },
   {
     "patent_id": "CN112645853A",
@@ -2539,8 +2594,9 @@
     "id": "CN112645853A_isoxazolones",
     "compound_uuid": "f06cc363-497a-50bf-a61f-afb55d845184",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a family"
   }
 ]

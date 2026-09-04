@@ -1,19 +1,15 @@
 # Operator manual
 
-`golden-patents-manual.html` (printable A4, two columns) and a Chrome-rendered
-`golden-patents-manual.pdf` beside it. Revision 0.1, 2026-09-03.
+`golden-patents-manual.html` and a Chrome-rendered `golden-patents-manual.pdf` beside it.
+Revision 0.2, 2026-09-04. White, gold and black; text diagrams instead of prose.
 
-**It is one revision behind the prompts.** The manual was written before the twelve-prompt
-set in [../prompts/](../prompts/) was delivered. Two things in it are now stale:
+Three sections so far, and deliberately short:
 
-- It numbers prompt **roles** P1–P15, and cites file paths under
-  `patent-extraction/prompts-for-gold/` for files 1–6 only. The shipped set is 1–12, and
-  it lives in [../prompts/](../prompts/). The role numbers were never file numbers, but
-  they no longer line up either — file 9 is the adversarial pass and 10–12 are pathways.
-- It mandates an `audit/` folder holding `AUDIT-LOG.md`, `RUN-NOTES.md` and
-  `GOLDEN-DATASET-FINDINGS.xlsx`. [../prompts/README.md](../prompts/README.md) now
-  mandates exactly four CSVs instead: `reactions_audit.csv`, `compounds_audit.csv`,
-  `pathways_audit.csv`, `findings.csv`.
+1. What the golden dataset is, in one line.
+2. Before you start: clone the repo, run the patent, build `<PATENT_ID>/input, output`,
+   open Claude Code there, paste the prompts from [../prompts/](../prompts/) in order.
+   The `audit/` folder with its four CSVs is created by the prompts.
+3. Your role: Claude reads and flags; you decide every flag and order the fix.
 
-Where the two disagree, **the prompts win** — they are what actually runs. The manual's
-chapters on how a run is organised, and why each pass is shaped the way it is, still hold.
+The per-pass chapters come next. Where this manual and the prompts disagree, the prompts win.
+`golden-patents-manual.v0.1-long.html.bak` is the previous long revision, kept for reference.

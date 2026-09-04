@@ -38,9 +38,10 @@
     "id": "CN109678767A_溶剂",
     "compound_uuid": "9ee11c71-8c5e-5f65-bdd4-1a5b5748571f",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: solvent"
   },
   {
     "patent_id": "CN109678767A",
@@ -80,9 +81,10 @@
     "id": "CN109678767A_催化剂",
     "compound_uuid": "2e328aef-1ea2-5691-8097-feba6a9370ea",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: catalyst"
   },
   {
     "patent_id": "CN109678767A",
@@ -155,9 +157,10 @@
       }
     ],
     "smiles": "Br",
-    "smiles_source": "patent_drawing+opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HBr",
-    "molecular_weight": 80.91
+    "molecular_weight": 80.91,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -230,9 +233,10 @@
       }
     ],
     "smiles": "OO",
-    "smiles_source": "patent_drawing+opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O2",
-    "molecular_weight": 34.01
+    "molecular_weight": 34.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -271,9 +275,10 @@
     "id": "CN109678767A_碱1",
     "compound_uuid": "4a47d9cc-68b2-5313-89e2-6cd57c0744a9",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: base, numbered"
   },
   {
     "patent_id": "CN109678767A",
@@ -350,9 +355,10 @@
       }
     ],
     "smiles": "OCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C2H3F3O",
-    "molecular_weight": 100.04
+    "molecular_weight": 100.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -391,9 +397,10 @@
     "id": "CN109678767A_碱2",
     "compound_uuid": "bf7be6f6-232b-59de-a94c-33533e4d8921",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: base, numbered"
   },
   {
     "patent_id": "CN109678767A",
@@ -470,9 +477,10 @@
       }
     ],
     "smiles": "O=S(Cl)Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "Cl2OS",
-    "molecular_weight": 118.97
+    "molecular_weight": 118.97,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -543,9 +551,10 @@
       }
     ],
     "smiles": "CCN(CC)CC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H15N",
-    "molecular_weight": 101.19
+    "molecular_weight": 101.19,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -620,9 +629,10 @@
       }
     ],
     "smiles": "CC(C)(O)C#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H7NO",
-    "molecular_weight": 85.11
+    "molecular_weight": 85.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -802,9 +812,10 @@
       }
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C17H16ClF3O6S",
-    "molecular_weight": 440.82
+    "molecular_weight": 440.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -848,7 +859,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
     "smiles_source": "pubchem",
     "molecular_formula": "C14H13NO7S",
-    "molecular_weight": 339.33
+    "molecular_weight": 339.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -885,9 +897,10 @@
     "id": "CN109678767A_异戊二烯基醌",
     "compound_uuid": "c6a03509-1cbe-5192-a34f-05b2ab4b42ce",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "prenylquinones, a family of quinones, not one molecule"
   },
   {
     "patent_id": "CN109678767A",
@@ -929,7 +942,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1",
     "smiles_source": "pubchem",
     "molecular_formula": "C14H13ClO5S",
-    "molecular_weight": 328.77
+    "molecular_weight": 328.77,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -971,7 +985,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2=C(Sc3ccccc3)C3CCC(C3)C2=O)c(Cl)c1",
     "smiles_source": "pubchem",
     "molecular_formula": "C22H19ClO4S2",
-    "molecular_weight": 446.98
+    "molecular_weight": 446.98,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1012,7 +1027,8 @@
     "smiles": "O=C(O)C1=NOC(c2ccccc2)(c2ccccc2)C1",
     "smiles_source": "pubchem",
     "molecular_formula": "C16H13NO3",
-    "molecular_weight": 267.28
+    "molecular_weight": 267.28,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1053,7 +1069,8 @@
     "smiles": "COc1nn(C(=O)NS(=O)(=O)c2c(C(=O)O)csc2C)c(=O)n1C",
     "smiles_source": "pubchem",
     "molecular_formula": "C11H12N4O7S2",
-    "molecular_weight": 376.37
+    "molecular_weight": 376.37,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1094,9 +1111,10 @@
     "id": "CN109678767A_2,6-dichlorotoluene",
     "compound_uuid": "654c9020-101d-54f1-804e-5fc3237347cf",
     "smiles": "Cc1c(Cl)cccc1Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H6Cl2",
-    "molecular_weight": 161.03
+    "molecular_weight": 161.03,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1137,9 +1155,10 @@
     "id": "CN109678767A_NBS",
     "compound_uuid": "4a5d5189-83a3-5ca3-8254-c1832b81b754",
     "smiles": "O=C1CCC(=O)N1Br",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H4BrNO2",
-    "molecular_weight": 177.98
+    "molecular_weight": 177.98,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1181,9 +1200,10 @@
     "id": "CN109678767A_3-chloro-2-methylaniline",
     "compound_uuid": "2b1cc933-f27f-5c3b-90ab-6bb91be6fa58",
     "smiles": "Cc1c(N)cccc1Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H8ClN",
-    "molecular_weight": 141.6
+    "molecular_weight": 141.6,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1224,9 +1244,10 @@
     "id": "CN109678767A_2-chlorotoluene",
     "compound_uuid": "e466c2fa-9ba1-5603-a53e-58d8718940e6",
     "smiles": "Cc1ccccc1Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H7Cl",
-    "molecular_weight": 126.59
+    "molecular_weight": 126.59,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1266,10 +1287,11 @@
     "notes": "FIX C-003 (2026-09-01, annotator direction): comparative charge 8.8g(0.055mol) from L298 filled into quantity; verified verbatim against the patent. Merged from [0007] and [0009], where it is the 溴化剂 (brominating agent) of the CN104292137A route and of the 《农药》 route, described in both as 危险性较大 (comparatively hazardous). 溴素 is the industrial Chinese term for elemental bromine and resolves; the EN line reads it the same way. The hazard tags follow the section's own hazard statement. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Added dropwise at reflux and held 4 h. No radical initiator is named for this benzylic bromination. | Named in [0090] as the brominating agent that 氢溴酸 replaces, so it belongs to the superseded route and not to this process. 溴素 is the standard Chinese term for elemental bromine and resolves unambiguously. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. Hazard tags follow the standing rule for bromine. PROMPT-8 FINAL CHECK (2026-09-01): section anchor corrected to Background/background: this record's own merged fragments come from [0007]/[0009] (background art), which precede the concluding paragraph [0090] in document order, and the file's merge rule anchors a record at the first section in document order; the prior-art brominating and alkoxide reagents NBS and sodium 2,2,2-trifluoroethoxide, the like-for-like siblings, are anchored the same way. The comparative-example charge kept in quantity is unaffected.",
     "id": "CN109678767A_bromine",
     "compound_uuid": "bd3f5093-b291-5fb0-90f1-5b58e19edb9c",
-    "smiles": "BrBr",
-    "smiles_source": "pubchem",
-    "molecular_formula": "Br2",
-    "molecular_weight": 159.81
+    "smiles": "[Br]",
+    "smiles_source": "opsin",
+    "molecular_formula": "Br",
+    "molecular_weight": 79.9,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1310,9 +1332,10 @@
     "id": "CN109678767A_sodium 2,2,2-trifluoroethoxide",
     "compound_uuid": "7e428444-c9ca-527a-b0e6-14dffac2eddd",
     "smiles": "[Na+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3NaO",
-    "molecular_weight": 122.02
+    "molecular_weight": 122.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1353,9 +1376,10 @@
     "id": "CN109678767A_cyanoacetone",
     "compound_uuid": "389093f4-7fd6-57fb-9e61-df20a232665b",
     "smiles": "CC(=O)CC#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H5NO",
-    "molecular_weight": 83.09
+    "molecular_weight": 83.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1403,7 +1427,8 @@
     "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
     "smiles_source": "opsin",
     "molecular_formula": "C17H16ClF3O6S",
-    "molecular_weight": 440.82
+    "molecular_weight": 440.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1449,9 +1474,10 @@
     "id": "CN109678767A_sodium methoxide",
     "compound_uuid": "77e211f8-a9e8-522a-92c1-c38abcb133b6",
     "smiles": "C[O-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH3NaO",
-    "molecular_weight": 54.02
+    "molecular_weight": 54.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1493,9 +1519,10 @@
     "id": "CN109678767A_methanol",
     "compound_uuid": "95678832-34e4-5dd7-8623-92bdd714ecf4",
     "smiles": "CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH4O",
-    "molecular_weight": 32.04
+    "molecular_weight": 32.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1574,9 +1601,10 @@
       }
     ],
     "smiles": "[Na+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNaO",
-    "molecular_weight": 40.0
+    "molecular_weight": 40.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1645,9 +1673,10 @@
       }
     ],
     "smiles": "O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O",
-    "molecular_weight": 18.02
+    "molecular_weight": 18.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1690,9 +1719,10 @@
     "id": "CN109678767A_acetonitrile",
     "compound_uuid": "9b055783-4b52-583d-bc17-da5d2aab6a5d",
     "smiles": "CC#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3N",
-    "molecular_weight": 41.05
+    "molecular_weight": 41.05,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1764,9 +1794,10 @@
       }
     ],
     "smiles": "CN(C)C=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H7NO",
-    "molecular_weight": 73.09
+    "molecular_weight": 73.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1808,9 +1839,10 @@
     "id": "CN109678767A_hydrochloric acid",
     "compound_uuid": "b92f58c1-6d63-5c4f-8498-721a2accc118",
     "smiles": "Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HCl",
-    "molecular_weight": 36.46
+    "molecular_weight": 36.46,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1890,9 +1922,10 @@
       }
     ],
     "smiles": "O=C1CCCC(=O)C1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C6H8O2",
-    "molecular_weight": 112.13
+    "molecular_weight": 112.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -1959,9 +1992,10 @@
       }
     ],
     "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C8H12N4",
-    "molecular_weight": 164.21
+    "molecular_weight": 164.21,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2024,9 +2058,10 @@
       }
     ],
     "smiles": "ClCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH2Cl2",
-    "molecular_weight": 84.93
+    "molecular_weight": 84.93,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2068,9 +2103,10 @@
     "id": "CN109678767A_1,2-dichloroethane",
     "compound_uuid": "0238fe35-4be6-51b3-8357-fd21da63254c",
     "smiles": "ClCCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H4Cl2",
-    "molecular_weight": 98.96
+    "molecular_weight": 98.96,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2112,9 +2148,10 @@
     "id": "CN109678767A_chloroform",
     "compound_uuid": "495c3c9a-4bf7-5531-97ae-f88deb8b7e1d",
     "smiles": "ClC(Cl)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CHCl3",
-    "molecular_weight": 119.38
+    "molecular_weight": 119.38,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2155,9 +2192,10 @@
     "id": "CN109678767A_ethanol",
     "compound_uuid": "dac1f028-4f40-5381-99ce-8af34af9e382",
     "smiles": "CCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H6O",
-    "molecular_weight": 46.07
+    "molecular_weight": 46.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2199,9 +2237,10 @@
     "id": "CN109678767A_isopropanol",
     "compound_uuid": "4577f09b-5403-5876-a8a6-cbd00e551c4d",
     "smiles": "CC(C)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H8O",
-    "molecular_weight": 60.1
+    "molecular_weight": 60.1,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2243,9 +2282,10 @@
     "id": "CN109678767A_n-butanol",
     "compound_uuid": "5264aab4-317c-5095-8aec-c1480f733135",
     "smiles": "CCCCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H10O",
-    "molecular_weight": 74.12
+    "molecular_weight": 74.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2315,9 +2355,10 @@
       }
     ],
     "smiles": "O=C([O-])[O-].[K+].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CK2O3",
-    "molecular_weight": 138.2
+    "molecular_weight": 138.2,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2390,9 +2431,10 @@
       }
     ],
     "smiles": "C1CN2CCN1CC2",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C6H12N2",
-    "molecular_weight": 112.18
+    "molecular_weight": 112.18,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2435,9 +2477,10 @@
     "id": "CN109678767A_2-methyltriethylenediamine",
     "compound_uuid": "7e9dd6dd-47a0-5f7c-b640-700542ad77c6",
     "smiles": "CC1CN2CCN1CC2",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H14N2",
-    "molecular_weight": 126.2
+    "molecular_weight": 126.2,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2478,9 +2521,10 @@
     "id": "CN109678767A_potassium hydroxide",
     "compound_uuid": "454448b1-2bb1-5a9c-ad4a-ed4d7268a2c0",
     "smiles": "[K+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HKO",
-    "molecular_weight": 56.11
+    "molecular_weight": 56.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2521,9 +2565,10 @@
     "id": "CN109678767A_lithium hydroxide",
     "compound_uuid": "82ca3b21-bd0b-57cb-9e75-5bbdcda4ba90",
     "smiles": "[Li+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HLiO",
-    "molecular_weight": 23.95
+    "molecular_weight": 23.95,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2581,9 +2626,10 @@
       }
     ],
     "smiles": "CN(C)C=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H7NO",
-    "molecular_weight": 73.09
+    "molecular_weight": 73.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2625,9 +2671,10 @@
     "id": "CN109678767A_acetone",
     "compound_uuid": "90717f34-409b-5151-8bfb-fae591d92240",
     "smiles": "CC(C)=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H6O",
-    "molecular_weight": 58.08
+    "molecular_weight": 58.08,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2669,9 +2716,10 @@
     "id": "CN109678767A_tetrahydrofuran",
     "compound_uuid": "68580bb1-c9ac-50b6-a45b-e1b18be07856",
     "smiles": "C1CCOC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H8O",
-    "molecular_weight": 72.11
+    "molecular_weight": 72.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2754,9 +2802,10 @@
       }
     ],
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H11ClO4S",
-    "molecular_weight": 262.71
+    "molecular_weight": 262.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2798,9 +2847,10 @@
     "id": "CN109678767A_carbon tetrachloride",
     "compound_uuid": "c87714f4-26c1-5730-a2f5-46cb4b94ffe9",
     "smiles": "ClC(Cl)(Cl)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CCl4",
-    "molecular_weight": 153.82
+    "molecular_weight": 153.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -2974,9 +3024,10 @@
       }
     ],
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H10BrClO4S",
-    "molecular_weight": 341.61
+    "molecular_weight": 341.61,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3193,9 +3244,10 @@
       }
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C11H10ClF3O5S",
-    "molecular_weight": 346.71
+    "molecular_weight": 346.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3277,10 +3329,11 @@
         "volume_ml": 100
       }
     ],
-    "smiles": null,
-    "smiles_source": "none:ambiguous",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CC(Cl)Cl",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C2H4Cl2",
+    "molecular_weight": 98.96,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3327,9 +3380,10 @@
     "id": "CN109678767A_m-chloroperoxybenzoic acid",
     "compound_uuid": "2541716c-ec66-593e-a44a-f31dde69e207",
     "smiles": "O=C(OO)c1cccc(Cl)c1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H5ClO3",
-    "molecular_weight": 172.57
+    "molecular_weight": 172.57,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3375,9 +3429,10 @@
     "id": "CN109678767A_COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
     "compound_uuid": "e3545263-e144-5840-9f45-db2b742776d6",
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C12H12ClF3O5S",
-    "molecular_weight": 360.74
+    "molecular_weight": 360.74,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3423,9 +3478,10 @@
     "id": "CN109678767A_CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
     "compound_uuid": "aca3af7a-7bc1-527a-bdf6-13b7267ff006",
     "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C11H9Cl2F3O4S",
-    "molecular_weight": 365.16
+    "molecular_weight": 365.16,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3464,9 +3520,10 @@
     "id": "CN109678767A_碱",
     "compound_uuid": "a055be92-3565-5318-9718-ff42757893df",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: base"
   },
   {
     "patent_id": "CN109678767A",
@@ -3505,8 +3562,9 @@
     "id": "CN109678767A_酸",
     "compound_uuid": "27594a13-4570-5fb3-aa86-c2190b9988e9",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule: acid"
   }
 ]

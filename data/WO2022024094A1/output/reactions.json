@@ -98,9 +98,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -119,9 +120,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -131,7 +133,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -259,9 +261,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoyl chloride",
@@ -280,9 +283,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H6ClNO5S",
-        "molecular_weight": 263.66
+        "molecular_weight": 263.66,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -292,7 +296,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoyl chloride",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -420,9 +424,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H6ClNO5S",
-        "molecular_weight": 263.66
+        "molecular_weight": 263.66,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -441,9 +446,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCCC(=O)C1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C6H8O2",
-        "molecular_weight": 112.13
+        "molecular_weight": 112.13,
+        "smiles_null_reason": null
       },
       {
         "identifier": "triethylamine",
@@ -465,9 +471,10 @@
           "(CH3CH2 )3N"
         ],
         "smiles": "CCN(CC)CC",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C6H15N",
-        "molecular_weight": 101.19
+        "molecular_weight": 101.19,
+        "smiles_null_reason": null
       },
       {
         "identifier": "enol ester of formula (II)",
@@ -486,9 +493,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -499,7 +507,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "enol ester of formula (II)",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -629,9 +637,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "mesotrione",
@@ -650,9 +659,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -662,7 +672,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "mesotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+pubchem",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -790,9 +800,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "acetic acid",
@@ -811,9 +822,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CC(=O)O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C2H4O2",
-        "molecular_weight": 60.05
+        "molecular_weight": 60.05,
+        "smiles_null_reason": null
       },
       {
         "identifier": "Sodium acetate",
@@ -835,9 +847,10 @@
           "acetate ion"
         ],
         "smiles": "CC(=O)[O-].[Na+]",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C2H3NaO2",
-        "molecular_weight": 82.03
+        "molecular_weight": 82.03,
+        "smiles_null_reason": null
       },
       {
         "identifier": "cobalt(II) acetate tetra hydrate",
@@ -856,9 +869,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.O.O.[Co+2]",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C4H14CoO8",
-        "molecular_weight": 249.08
+        "molecular_weight": 249.08,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -877,9 +891,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -891,7 +906,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -1021,9 +1036,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sulfuric acid",
@@ -1042,9 +1058,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=S(=O)(O)O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O4S",
-        "molecular_weight": 98.08
+        "molecular_weight": 98.08,
+        "smiles_null_reason": null
       },
       {
         "identifier": "nitric acid",
@@ -1063,9 +1080,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=[N+]([O-])O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HNO3",
-        "molecular_weight": 63.01
+        "molecular_weight": 63.01,
+        "smiles_null_reason": null
       },
       {
         "identifier": "vanadium pentoxide",
@@ -1083,10 +1101,11 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
-        "smiles_source": "pubchem",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+        "smiles_source": "opsin",
         "molecular_formula": "O5V2",
-        "molecular_weight": 181.88
+        "molecular_weight": 181.88,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -1105,9 +1124,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -1119,7 +1139,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -1260,9 +1280,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sulfuric acid",
@@ -1281,9 +1302,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=S(=O)(O)O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O4S",
-        "molecular_weight": 98.08
+        "molecular_weight": 98.08,
+        "smiles_null_reason": null
       },
       {
         "identifier": "nitric acid",
@@ -1302,9 +1324,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=[N+]([O-])O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HNO3",
-        "molecular_weight": 63.01
+        "molecular_weight": 63.01,
+        "smiles_null_reason": null
       },
       {
         "identifier": "O2",
@@ -1325,7 +1348,8 @@
         "smiles": "O=O",
         "smiles_source": "pubchem",
         "molecular_formula": "O2",
-        "molecular_weight": 32.0
+        "molecular_weight": 32.0,
+        "smiles_null_reason": null
       },
       {
         "identifier": "vanadium pentoxide",
@@ -1343,10 +1367,11 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
-        "smiles_source": "pubchem",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+        "smiles_source": "opsin",
         "molecular_formula": "O5V2",
-        "molecular_weight": 181.88
+        "molecular_weight": 181.88,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -1365,9 +1390,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -1380,7 +1406,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -1509,9 +1535,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "nitric acid",
@@ -1530,9 +1557,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=[N+]([O-])O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HNO3",
-        "molecular_weight": 63.01
+        "molecular_weight": 63.01,
+        "smiles_null_reason": null
       },
       {
         "identifier": "vanadium pentoxide",
@@ -1550,10 +1578,11 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
-        "smiles_source": "pubchem",
+        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+        "smiles_source": "opsin",
         "molecular_formula": "O5V2",
-        "molecular_weight": 181.88
+        "molecular_weight": 181.88,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -1572,9 +1601,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -1585,7 +1615,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -1713,9 +1743,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoyl chloride",
@@ -1734,9 +1765,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H6ClNO5S",
-        "molecular_weight": 263.66
+        "molecular_weight": 263.66,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -1746,7 +1778,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoyl chloride",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -1874,9 +1906,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[Cl][Ru]([Cl])[Cl]",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "Cl3Ru",
-        "molecular_weight": 207.43
+        "molecular_weight": 207.43,
+        "smiles_null_reason": null
       },
       {
         "identifier": "aqueous caustic solution",
@@ -1894,10 +1927,11 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:class_name",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "O=[N+]([O-])[O-].[Ag+]",
+        "smiles_source": "pubchem",
+        "molecular_formula": "AgNO3",
+        "molecular_weight": 169.87,
+        "smiles_null_reason": null
       },
       {
         "identifier": "chlorine",
@@ -1915,10 +1949,11 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "ClCl",
-        "smiles_source": "pubchem",
-        "molecular_formula": "Cl2",
-        "molecular_weight": 70.91
+        "smiles": "[Cl]",
+        "smiles_source": "opsin",
+        "molecular_formula": "Cl",
+        "molecular_weight": 35.45,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulfonyl toluene",
@@ -1937,9 +1972,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ruthenium oxide",
@@ -1958,9 +1994,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated+pubchem",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2Ru",
-        "molecular_weight": 133.07
+        "molecular_weight": 133.07,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -1971,7 +2008,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "ruthenium oxide",
     "product_smiles": "[O]=[Ru]=[O]",
-    "product_smiles_source": "curated+pubchem",
+    "product_smiles_source": "pubchem",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -2154,9 +2191,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium hypochlorite",
@@ -2175,9 +2213,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[Na+].[O-]Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "ClNaO",
-        "molecular_weight": 74.44
+        "molecular_weight": 74.44,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ruthenium oxide",
@@ -2196,9 +2235,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated+pubchem",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2Ru",
-        "molecular_weight": 133.07
+        "molecular_weight": 133.07,
+        "smiles_null_reason": null
       },
       {
         "identifier": "concentrated hydrochloric acid",
@@ -2217,9 +2257,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HCl",
-        "molecular_weight": 36.46
+        "molecular_weight": 36.46,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -2239,9 +2280,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 95.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -2252,7 +2294,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 70.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -2451,9 +2493,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium hypochlorite",
@@ -2472,9 +2515,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[Na+].[O-]Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "ClNaO",
-        "molecular_weight": 74.44
+        "molecular_weight": 74.44,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ruthenium oxide",
@@ -2493,9 +2537,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated+pubchem",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2Ru",
-        "molecular_weight": 133.07
+        "molecular_weight": 133.07,
+        "smiles_null_reason": null
       },
       {
         "identifier": "concentrated hydrochloric acid",
@@ -2514,9 +2559,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HCl",
-        "molecular_weight": 36.46
+        "molecular_weight": 36.46,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -2536,9 +2582,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 92.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -2549,7 +2596,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 67.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -2745,9 +2792,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium hypochlorite",
@@ -2766,9 +2814,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[Na+].[O-]Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "ClNaO",
-        "molecular_weight": 74.44
+        "molecular_weight": 74.44,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ruthenium oxide",
@@ -2787,9 +2836,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated+pubchem",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2Ru",
-        "molecular_weight": 133.07
+        "molecular_weight": 133.07,
+        "smiles_null_reason": null
       },
       {
         "identifier": "concentrated hydrochloric acid",
@@ -2808,9 +2858,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HCl",
-        "molecular_weight": 36.46
+        "molecular_weight": 36.46,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -2830,9 +2881,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 95.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -2843,7 +2895,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 68.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -2994,9 +3046,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -3015,9 +3068,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCCC(=O)C1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C6H8O2",
-        "molecular_weight": 112.13
+        "molecular_weight": 112.13,
+        "smiles_null_reason": null
       },
       {
         "identifier": "N,N’-dicyclohexylcarbodiimide",
@@ -3036,9 +3090,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "C(=NC1CCCCC1)=NC1CCCCC1",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C13H22N2",
-        "molecular_weight": 206.33
+        "molecular_weight": 206.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -3057,9 +3112,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       },
       {
         "identifier": "water",
@@ -3078,9 +3134,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O",
-        "molecular_weight": 18.02
+        "molecular_weight": 18.02,
+        "smiles_null_reason": null
       },
       {
         "identifier": "enol ester of formula (II)",
@@ -3100,9 +3157,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 85.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -3114,7 +3172,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "enol ester of formula (II)",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 68.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -3267,9 +3325,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -3288,9 +3347,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCCC(=O)C1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C6H8O2",
-        "molecular_weight": 112.13
+        "molecular_weight": 112.13,
+        "smiles_null_reason": null
       },
       {
         "identifier": "N,N’-dicyclohexylcarbodiimide",
@@ -3309,9 +3369,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "C(=NC1CCCCC1)=NC1CCCCC1",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C13H22N2",
-        "molecular_weight": 206.33
+        "molecular_weight": 206.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -3330,9 +3391,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       },
       {
         "identifier": "water",
@@ -3351,9 +3413,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O",
-        "molecular_weight": 18.02
+        "molecular_weight": 18.02,
+        "smiles_null_reason": null
       },
       {
         "identifier": "enol ester of formula (II)",
@@ -3373,9 +3436,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 85.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -3387,7 +3451,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "enol ester of formula (II)",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 65.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -3550,9 +3614,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -3571,9 +3636,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCCC(=O)C1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C6H8O2",
-        "molecular_weight": 112.13
+        "molecular_weight": 112.13,
+        "smiles_null_reason": null
       },
       {
         "identifier": "N,N’-dicyclohexylcarbodiimide",
@@ -3592,9 +3658,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "C(=NC1CCCCC1)=NC1CCCCC1",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C13H22N2",
-        "molecular_weight": 206.33
+        "molecular_weight": 206.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -3613,9 +3680,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       },
       {
         "identifier": "water",
@@ -3634,9 +3702,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O",
-        "molecular_weight": 18.02
+        "molecular_weight": 18.02,
+        "smiles_null_reason": null
       },
       {
         "identifier": "enol ester of formula (II)",
@@ -3656,9 +3725,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 85.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -3670,7 +3740,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "enol ester of formula (II)",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 66.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -3866,9 +3936,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -3887,9 +3958,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium cyanide",
@@ -3908,9 +3980,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[C-]#N.[Na+]",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CNNa",
-        "molecular_weight": 49.01
+        "molecular_weight": 49.01,
+        "smiles_null_reason": null
       },
       {
         "identifier": "triethylamine",
@@ -3929,9 +4002,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CCN(CC)CC",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C6H15N",
-        "molecular_weight": 101.19
+        "molecular_weight": 101.19,
+        "smiles_null_reason": null
       },
       {
         "identifier": "water",
@@ -3950,9 +4024,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "H2O",
-        "molecular_weight": 18.02
+        "molecular_weight": 18.02,
+        "smiles_null_reason": null
       },
       {
         "identifier": "aqueous hydrochloric acid",
@@ -3971,9 +4046,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "HCl",
-        "molecular_weight": 36.46
+        "molecular_weight": 36.46,
+        "smiles_null_reason": null
       },
       {
         "identifier": "mesotrione",
@@ -3993,9 +4069,10 @@
         "purity_method": "hplc",
         "purity_pct_min": 95.0,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -4006,7 +4083,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "mesotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+pubchem",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": 85.0,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -4186,9 +4263,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9NO4S",
-        "molecular_weight": 215.23
+        "molecular_weight": 215.23,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ruthenium oxide",
@@ -4207,9 +4285,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated+pubchem",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2Ru",
-        "molecular_weight": 133.07
+        "molecular_weight": 133.07,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
@@ -4228,9 +4307,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium hypochlorite",
@@ -4249,9 +4329,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[Na+].[O-]Cl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "ClNaO",
-        "molecular_weight": 74.44
+        "molecular_weight": 74.44,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -4262,7 +4343,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "2-nitro-4-methylsulphonyl benzoic acid",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -4455,9 +4536,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7NO6S",
-        "molecular_weight": 245.21
+        "molecular_weight": 245.21,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -4476,9 +4558,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCCC(=O)C1",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C6H8O2",
-        "molecular_weight": 112.13
+        "molecular_weight": 112.13,
+        "smiles_null_reason": null
       },
       {
         "identifier": "enol ester of formula (II)",
@@ -4497,9 +4580,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "N,N’-dicyclohexylcarbodiimide",
@@ -4518,9 +4602,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "C(=NC1CCCCC1)=NC1CCCCC1",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C13H22N2",
-        "molecular_weight": 206.33
+        "molecular_weight": 206.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -4539,9 +4624,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -4553,7 +4639,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "enol ester of formula (II)",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -4719,9 +4805,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "mesotrione",
@@ -4740,9 +4827,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-        "smiles_source": "patent_scheme+patent_drawing+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C14H13NO7S",
-        "molecular_weight": 339.33
+        "molecular_weight": 339.33,
+        "smiles_null_reason": null
       },
       {
         "identifier": "sodium cyanide",
@@ -4761,9 +4849,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[C-]#N.[Na+]",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CNNa",
-        "molecular_weight": 49.01
+        "molecular_weight": 49.01,
+        "smiles_null_reason": null
       },
       {
         "identifier": "triethylamine",
@@ -4782,9 +4871,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "CCN(CC)CC",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "C6H15N",
-        "molecular_weight": 101.19
+        "molecular_weight": 101.19,
+        "smiles_null_reason": null
       },
       {
         "identifier": "dichloromethane",
@@ -4803,9 +4893,10 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCCl",
-        "smiles_source": "opsin+pubchem",
+        "smiles_source": "opsin",
         "molecular_formula": "CH2Cl2",
-        "molecular_weight": 84.93
+        "molecular_weight": 84.93,
+        "smiles_null_reason": null
       }
     ],
     "reactant_names": [
@@ -4816,7 +4907,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "mesotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-    "product_smiles_source": "patent_scheme+patent_drawing+pubchem",
+    "product_smiles_source": "identifier_name",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,

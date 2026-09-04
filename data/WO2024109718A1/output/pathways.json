@@ -7,99 +7,111 @@
       "identifier": "dichlorotoluene",
       "smiles": "Cc1c(Cl)cccc1Cl",
       "compound_uuid": "2ee2317f-9185-530c-a3c6-01a4d24c4d8a",
-      "smiles_source": "patent_scheme",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H6Cl2",
-      "molecular_weight": 161.03
+      "molecular_weight": 161.03,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
         "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
         "smiles": "CSc1ccc(C(C)=O)c(Cl)c1C",
         "compound_uuid": "f5543382-ca5c-5442-b2be-9c4daaad43cb",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClOS",
-        "molecular_weight": 214.72
+        "molecular_weight": 214.72,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
         "smiles": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
         "compound_uuid": "d29bdef4-c2ee-5eb5-9778-c1449739acb6",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClO3S",
-        "molecular_weight": 246.71
+        "molecular_weight": 246.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
         "compound_uuid": "8cc4883e-e32c-594e-afe4-fcb3ab2eeb39",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C9H9ClO4S",
-        "molecular_weight": 248.69
+        "molecular_weight": 248.69,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
         "compound_uuid": "2ff04b92-cc37-5b85-95d1-25a3337fd241",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClO4S",
-        "molecular_weight": 262.71
+        "molecular_weight": 262.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
         "compound_uuid": "ddd7f984-5f1c-52f2-bed6-052e515548e3",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H10BrClO4S",
-        "molecular_weight": 341.61
+        "molecular_weight": 341.61,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
         "compound_uuid": "a726f127-ffc0-599a-8a5f-0e837a7db535",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C12H12ClF3O5S",
-        "molecular_weight": 360.74
+        "molecular_weight": 360.74,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -2421,99 +2433,111 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
         "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
         "smiles": "CSc1ccc(C(C)=O)c(Cl)c1C",
         "compound_uuid": "f5543382-ca5c-5442-b2be-9c4daaad43cb",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClOS",
-        "molecular_weight": 214.72
+        "molecular_weight": 214.72,
+        "smiles_null_reason": null
       },
       {
         "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
         "smiles": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
         "compound_uuid": "d29bdef4-c2ee-5eb5-9778-c1449739acb6",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClO3S",
-        "molecular_weight": 246.71
+        "molecular_weight": 246.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
         "compound_uuid": "8cc4883e-e32c-594e-afe4-fcb3ab2eeb39",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C9H9ClO4S",
-        "molecular_weight": 248.69
+        "molecular_weight": 248.69,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
         "compound_uuid": "2ff04b92-cc37-5b85-95d1-25a3337fd241",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H11ClO4S",
-        "molecular_weight": 262.71
+        "molecular_weight": 262.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
         "compound_uuid": "ddd7f984-5f1c-52f2-bed6-052e515548e3",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H10BrClO4S",
-        "molecular_weight": 341.61
+        "molecular_weight": 341.61,
+        "smiles_null_reason": null
       },
       {
         "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
         "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
         "compound_uuid": "a726f127-ffc0-599a-8a5f-0e837a7db535",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C12H12ClF3O5S",
-        "molecular_weight": 360.74
+        "molecular_weight": 360.74,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -4938,51 +4962,57 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "compound of formula (V)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C11H10ClF3O5S",
-      "molecular_weight": 346.71
+      "molecular_weight": 346.71,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -6518,51 +6548,57 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "ester compound of formula (VIII)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -8101,75 +8137,84 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -9937,59 +9982,66 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -11364,51 +11416,57 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "compound of formula (V)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C11H10ClF3O5S",
-      "molecular_weight": 346.71
+      "molecular_weight": 346.71,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -12603,51 +12661,57 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "ester compound of formula (VIII)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -13846,75 +13910,84 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -15701,59 +15774,66 @@
       "identifier": "CSc1cccc(Cl)c1C",
       "smiles": "CSc1cccc(Cl)c1C",
       "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H9ClS",
-      "molecular_weight": 172.68
+      "molecular_weight": 172.68,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -17145,18 +17225,20 @@
       "identifier": "2,2,2-trifluoroethanol",
       "smiles": "OCC(F)(F)F",
       "compound_uuid": "bfc5d3ce-a387-5445-8510-57c0e9fd37c1",
-      "smiles_source": "opsin+pubchem",
+      "smiles_source": "opsin",
       "molecular_formula": "C2H3F3O",
-      "molecular_weight": 100.04
+      "molecular_weight": 100.04,
+      "smiles_null_reason": null
     },
     "intermediates": [],
     "product": {
       "identifier": "CF3CH2OM",
       "smiles": null,
       "compound_uuid": "ced86454-9614-5014-a6bd-4ef43d9907d1",
-      "smiles_source": "none:unresolved",
+      "smiles_source": null,
       "molecular_formula": null,
-      "molecular_weight": null
+      "molecular_weight": null,
+      "smiles_null_reason": "Markush: M is a variable metal"
     },
     "steps": [
       {
@@ -17526,59 +17608,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "compound of formula (V)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C11H10ClF3O5S",
-      "molecular_weight": 346.71
+      "molecular_weight": 346.71,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -20063,67 +20152,75 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "tembotrione",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -22240,83 +22337,93 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "tembotrione",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -24240,43 +24347,48 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "compound of formula (III)",
       "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
       "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-      "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C8H7Br2ClO2S",
-      "molecular_weight": 362.47
+      "molecular_weight": 362.47,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -25422,59 +25534,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "compound of formula (V)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C11H10ClF3O5S",
-      "molecular_weight": 346.71
+      "molecular_weight": 346.71,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -27361,83 +27480,93 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -30041,59 +30170,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "ester compound of formula (VIII)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -31960,59 +32096,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "ester compound of formula (VIII)",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -33896,59 +34039,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -35922,50 +36072,56 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": null,
@@ -37826,83 +37982,93 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (V)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
-        "smiles_source": "patent_scheme+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H10ClF3O5S",
-        "molecular_weight": 346.71
+        "molecular_weight": 346.71,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (VII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
-        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C11H9Cl2F3O4S",
-        "molecular_weight": 365.16
+        "molecular_weight": 365.16,
+        "smiles_null_reason": null
       },
       {
         "identifier": "ester compound of formula (VIII)",
         "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
-        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C17H16ClF3O6S",
-        "molecular_weight": 440.82
+        "molecular_weight": 440.82,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {
@@ -40507,59 +40673,66 @@
       "identifier": "3-chloro-2-methylaniline",
       "smiles": "Cc1c(N)cccc1Cl",
       "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
-      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C7H8ClN",
-      "molecular_weight": 141.6
+      "molecular_weight": 141.6,
+      "smiles_null_reason": null
     },
     "intermediates": [
       {
         "identifier": "compound of formula (VI)",
-        "smiles": "ClCSCc1ccccc1",
+        "smiles": "CSc1cccc(Cl)c1C",
         "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
-        "smiles_source": "pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H9ClS",
-        "molecular_weight": 172.68
+        "molecular_weight": 172.68,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (I)",
         "smiles": "CSc1ccc(Br)c(Cl)c1C",
         "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClS",
-        "molecular_weight": 251.58
+        "molecular_weight": 251.58,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (II)",
         "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
         "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H8BrClO2S",
-        "molecular_weight": 283.57
+        "molecular_weight": 283.57,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (III)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
         "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C8H7Br2ClO2S",
-        "molecular_weight": 362.47
+        "molecular_weight": 362.47,
+        "smiles_null_reason": null
       },
       {
         "identifier": "compound of formula (IV)",
         "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
         "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
-        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "smiles_source": "identifier_name",
         "molecular_formula": "C10H9BrClF3O3S",
-        "molecular_weight": 381.6
+        "molecular_weight": 381.6,
+        "smiles_null_reason": null
       }
     ],
     "product": {
       "identifier": "tembotrione",
       "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
       "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
-      "smiles_source": "patent_scheme+pubchem",
+      "smiles_source": "identifier_name",
       "molecular_formula": "C17H16ClF3O6S",
-      "molecular_weight": 440.82
+      "molecular_weight": 440.82,
+      "smiles_null_reason": null
     },
     "steps": [
       {

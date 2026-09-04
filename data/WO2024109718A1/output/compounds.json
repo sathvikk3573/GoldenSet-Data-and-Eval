@@ -83,9 +83,10 @@
     "first_seen_line": 53,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C17H16ClF3O6S",
-    "molecular_weight": 440.82
+    "molecular_weight": 440.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -130,9 +131,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "Cc1c(Cl)cccc1Cl",
-    "smiles_source": "patent_scheme",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C7H6Cl2",
-    "molecular_weight": 161.03
+    "molecular_weight": 161.03,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -179,9 +181,10 @@
     "first_seen_line": 74,
     "concentration_pct": null,
     "smiles": "Cc1c(N)cccc1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C7H8ClN",
-    "molecular_weight": 141.6
+    "molecular_weight": 141.6,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -224,9 +227,10 @@
     "first_seen_line": 65,
     "concentration_pct": 20.0,
     "smiles": "C[S-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH3NaS",
-    "molecular_weight": 70.09
+    "molecular_weight": 70.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -267,9 +271,10 @@
     "first_seen_line": 74,
     "concentration_pct": 20.0,
     "smiles": "O=N[O-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "NNaO2",
-    "molecular_weight": 69.0
+    "molecular_weight": 69.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -312,9 +317,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CC(=O)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3ClO",
-    "molecular_weight": 78.5
+    "molecular_weight": 78.5,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -356,9 +362,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "[Cl][Al]([Cl])[Cl]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "AlCl3",
-    "molecular_weight": 133.34
+    "molecular_weight": 133.34,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -404,9 +411,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CSc1ccc(C(C)=O)c(Cl)c1C",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H11ClOS",
-    "molecular_weight": 214.72
+    "molecular_weight": 214.72,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -453,9 +461,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H11ClO3S",
-    "molecular_weight": 246.71
+    "molecular_weight": 246.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -497,9 +506,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "[Na+].[O-]Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "ClNaO",
-    "molecular_weight": 74.44
+    "molecular_weight": 74.44,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -546,9 +556,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C9H9ClO4S",
-    "molecular_weight": 248.69
+    "molecular_weight": 248.69,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -590,9 +601,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "CH4O",
-    "molecular_weight": 32.04
+    "molecular_weight": 32.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -639,9 +651,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H11ClO4S",
-    "molecular_weight": 262.71
+    "molecular_weight": 262.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -689,9 +702,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H10BrClO4S",
-    "molecular_weight": 341.61
+    "molecular_weight": 341.61,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -736,9 +750,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "[Na+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C2H2F3NaO",
-    "molecular_weight": 122.02
+    "molecular_weight": 122.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -787,9 +802,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C12H12ClF3O5S",
-    "molecular_weight": 360.74
+    "molecular_weight": 360.74,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -831,9 +847,10 @@
     "first_seen_line": 65,
     "concentration_pct": 32.0,
     "smiles": "[Na+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "HNaO",
-    "molecular_weight": 40.0
+    "molecular_weight": 40.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -875,9 +892,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "O=C(Cl)C(=O)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C2Cl2O2",
-    "molecular_weight": 126.93
+    "molecular_weight": 126.93,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -918,9 +936,10 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names the CHX3 class: the halogen is not stated"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -961,9 +980,10 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": "[Cl-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "ClNa",
-    "molecular_weight": 58.44
+    "molecular_weight": 58.44,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1007,9 +1027,10 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": "O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O",
-    "molecular_weight": 18.02
+    "molecular_weight": 18.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1050,9 +1071,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": "[Pd]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Pd",
-    "molecular_weight": 106.42
+    "molecular_weight": 106.42,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1093,9 +1115,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": "[Rh]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Rh",
-    "molecular_weight": 102.91
+    "molecular_weight": 102.91,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1136,9 +1159,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": "[Ru]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Ru",
-    "molecular_weight": 101.07
+    "molecular_weight": 101.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1179,9 +1203,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": "[Cu]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Cu",
-    "molecular_weight": 63.55
+    "molecular_weight": 63.55,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1222,9 +1247,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": "[Co]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Co",
-    "molecular_weight": 58.93
+    "molecular_weight": 58.93,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1269,9 +1295,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "[Cl][Pd][Cl]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Cl2Pd",
-    "molecular_weight": 177.33
+    "molecular_weight": 177.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1315,9 +1342,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "O=C([O-])[O-].[Pd+2]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CO3Pd",
-    "molecular_weight": 166.43
+    "molecular_weight": 166.43,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1360,9 +1388,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H6O4Pd",
-    "molecular_weight": 224.51
+    "molecular_weight": 224.51,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1407,7 +1436,8 @@
     "smiles": "[Pd]",
     "smiles_source": "pubchem",
     "molecular_formula": "Pd",
-    "molecular_weight": 106.42
+    "molecular_weight": 106.42,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1451,9 +1481,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4F6O4Pd",
-    "molecular_weight": 332.45
+    "molecular_weight": 332.45,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1500,7 +1531,8 @@
     "smiles": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]",
     "smiles_source": "pubchem",
     "molecular_formula": "C34H28O2Pd",
-    "molecular_weight": 575.02
+    "molecular_weight": 575.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1546,9 +1578,10 @@
     "first_seen_line": 329,
     "concentration_pct": null,
     "smiles": "c1ccc(P(CCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C27H26P2",
-    "molecular_weight": 412.45
+    "molecular_weight": 412.45,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1591,9 +1624,10 @@
     "first_seen_line": 329,
     "concentration_pct": null,
     "smiles": "c1ccc(P(CCCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C28H28P2",
-    "molecular_weight": 426.48
+    "molecular_weight": 426.48,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1637,9 +1671,10 @@
     "first_seen_line": 329,
     "concentration_pct": null,
     "smiles": "CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C16H28NP",
-    "molecular_weight": 265.38
+    "molecular_weight": 265.38,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1682,9 +1717,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": "Cc1ccccc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H8",
-    "molecular_weight": 92.14
+    "molecular_weight": 92.14,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1729,9 +1765,10 @@
     "first_seen_line": 310,
     "concentration_pct": null,
     "smiles": "C1COCCO1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H8O2",
-    "molecular_weight": 88.11
+    "molecular_weight": 88.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1774,9 +1811,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": "COCCOC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H10O2",
-    "molecular_weight": 90.12
+    "molecular_weight": 90.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1818,9 +1856,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": "CCOCCOCC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H14O2",
-    "molecular_weight": 118.18
+    "molecular_weight": 118.18,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1862,9 +1901,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": "CS(C)=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H6OS",
-    "molecular_weight": 78.14
+    "molecular_weight": 78.14,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1909,9 +1949,10 @@
     "first_seen_line": 310,
     "concentration_pct": null,
     "smiles": "C1CCOC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H8O",
-    "molecular_weight": 72.11
+    "molecular_weight": 72.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1953,9 +1994,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": "CN(C)C=O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C3H7NO",
-    "molecular_weight": 73.09
+    "molecular_weight": 73.09,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1999,10 +2041,11 @@
     "compound_uuid": "6dc3476a-cef3-5547-ae94-3550ebc7f3a3",
     "first_seen_line": 74,
     "concentration_pct": null,
-    "smiles": "BrBr",
-    "smiles_source": "pubchem",
-    "molecular_formula": "Br2",
-    "molecular_weight": 159.81
+    "smiles": "[Br]",
+    "smiles_source": "opsin",
+    "molecular_formula": "Br",
+    "molecular_weight": 79.9,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2046,9 +2089,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "O=C1CCC(=O)N1Br",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H4BrNO2",
-    "molecular_weight": 177.98
+    "molecular_weight": 177.98,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2091,9 +2135,10 @@
     "first_seen_line": 124,
     "concentration_pct": null,
     "smiles": "Br",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HBr",
-    "molecular_weight": 80.91
+    "molecular_weight": 80.91,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2135,9 +2180,10 @@
     "first_seen_line": 65,
     "concentration_pct": 23.0,
     "smiles": "OO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O2",
-    "molecular_weight": 34.01
+    "molecular_weight": 34.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2181,9 +2227,10 @@
     "first_seen_line": 124,
     "concentration_pct": null,
     "smiles": "[K+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3KO",
-    "molecular_weight": 138.13
+    "molecular_weight": 138.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2226,9 +2273,10 @@
     "first_seen_line": 122,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:unresolved",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "Markush: M is a variable metal"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2272,10 +2320,11 @@
     "compound_uuid": "973e7205-5a56-5076-bca5-93302e516067",
     "first_seen_line": 97,
     "concentration_pct": null,
-    "smiles": "[C-]#[O+]",
-    "smiles_source": "pubchem",
+    "smiles": "[C]=O",
+    "smiles_source": "opsin",
     "molecular_formula": "CO",
-    "molecular_weight": 28.01
+    "molecular_weight": 28.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2316,9 +2365,10 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": "O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "H2O",
-    "molecular_weight": 18.02
+    "molecular_weight": 18.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2366,9 +2416,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CSc1cccc(Cl)c1C",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H9ClS",
-    "molecular_weight": 172.68
+    "molecular_weight": 172.68,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2409,9 +2460,10 @@
     "first_seen_line": 160,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:markush",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "Markush: formula (A) is a family"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2485,9 +2537,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CSc1cccc(Cl)c1C",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H9ClS",
-    "molecular_weight": 172.68
+    "molecular_weight": 172.68,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2531,9 +2584,10 @@
     "first_seen_line": 74,
     "concentration_pct": 5.1,
     "smiles": "Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HCl",
-    "molecular_weight": 36.46
+    "molecular_weight": 36.46,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2574,9 +2628,10 @@
     "first_seen_line": 433,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a charge type, not a compound"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2619,9 +2674,10 @@
     "first_seen_line": 435,
     "concentration_pct": null,
     "smiles": "CC#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3N",
-    "molecular_weight": 41.05
+    "molecular_weight": 41.05,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2666,9 +2722,10 @@
     "first_seen_line": 268,
     "concentration_pct": null,
     "smiles": "O=CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH2O2",
-    "molecular_weight": 46.03
+    "molecular_weight": 46.03,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2712,9 +2769,10 @@
     "first_seen_line": 437,
     "concentration_pct": null,
     "smiles": "[2H]C(Cl)(Cl)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CHCl3",
-    "molecular_weight": 120.38
+    "molecular_weight": 120.38,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2791,9 +2849,10 @@
     "first_seen_line": 91,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C10H9BrClF3O3S",
-    "molecular_weight": 381.6
+    "molecular_weight": 381.6,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2837,9 +2896,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "CCN(CC)CC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H15N",
-    "molecular_weight": 101.19
+    "molecular_weight": 101.19,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2881,9 +2941,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "[Cl][Pd][Cl]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "Cl2Pd",
-    "molecular_weight": 177.33
+    "molecular_weight": 177.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2924,10 +2985,11 @@
     "compound_uuid": "0b31c5a3-f3d9-5a22-974e-e7dbce915022",
     "first_seen_line": 320,
     "concentration_pct": null,
-    "smiles": "N#N",
-    "smiles_source": "pubchem",
-    "molecular_formula": "N2",
-    "molecular_weight": 28.01
+    "smiles": "[N]",
+    "smiles_source": "opsin",
+    "molecular_formula": "N",
+    "molecular_weight": 14.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2972,9 +3034,10 @@
     "first_seen_line": 348,
     "concentration_pct": null,
     "smiles": "CC(C)(O)C#N",
-    "smiles_source": "patent_drawing+opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H7NO",
-    "molecular_weight": 85.11
+    "molecular_weight": 85.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3014,10 +3077,11 @@
     "compound_uuid": "b4c3f1d4-64e6-5f33-92cc-af86b27ad881",
     "first_seen_line": 537,
     "concentration_pct": null,
-    "smiles": "CC[NH+](CC)CC.[Br-]",
-    "smiles_source": "pubchem",
+    "smiles": "Br.CCN(CC)CC",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H16BrN",
-    "molecular_weight": 182.1
+    "molecular_weight": 182.1,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3061,9 +3125,10 @@
     "first_seen_line": 308,
     "concentration_pct": null,
     "smiles": "CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH4O",
-    "molecular_weight": 32.04
+    "molecular_weight": 32.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3107,9 +3172,10 @@
     "first_seen_line": 65,
     "concentration_pct": 32.0,
     "smiles": "[Na+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNaO",
-    "molecular_weight": 40.0
+    "molecular_weight": 40.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3157,9 +3223,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "O=C1CCCC(=O)C1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C6H8O2",
-    "molecular_weight": 112.13
+    "molecular_weight": 112.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3202,9 +3269,10 @@
     "first_seen_line": 548,
     "concentration_pct": null,
     "smiles": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C26H35O2P",
-    "molecular_weight": 410.54
+    "molecular_weight": 410.54,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3248,9 +3316,10 @@
     "first_seen_line": 548,
     "concentration_pct": null,
     "smiles": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C39H32OP2",
-    "molecular_weight": 578.63
+    "molecular_weight": 578.63,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3295,10 +3364,11 @@
     "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
     "first_seen_line": 65,
     "concentration_pct": null,
-    "smiles": "ClCSCc1ccccc1",
-    "smiles_source": "pubchem",
+    "smiles": "CSc1cccc(Cl)c1C",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H9ClS",
-    "molecular_weight": 172.68
+    "molecular_weight": 172.68,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3340,9 +3410,10 @@
     "first_seen_line": 250,
     "concentration_pct": null,
     "smiles": "ClCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH2Cl2",
-    "molecular_weight": 84.93
+    "molecular_weight": 84.93,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3413,9 +3484,10 @@
     "first_seen_line": 103,
     "concentration_pct": null,
     "smiles": "CSc1ccc(Br)c(Cl)c1C",
-    "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H8BrClS",
-    "molecular_weight": 251.58
+    "molecular_weight": 251.58,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3458,7 +3530,8 @@
     "smiles": "O.O.[Na+].[Na+].[O]=[W](=[O])([O-])[O-]",
     "smiles_source": "pubchem",
     "molecular_formula": "H4Na2O6W",
-    "molecular_weight": 329.85
+    "molecular_weight": 329.85,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3500,9 +3573,10 @@
     "first_seen_line": 268,
     "concentration_pct": null,
     "smiles": "CC(=O)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C2H4O2",
-    "molecular_weight": 60.05
+    "molecular_weight": 60.05,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3578,9 +3652,10 @@
     "first_seen_line": 108,
     "concentration_pct": null,
     "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
-    "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H8BrClO2S",
-    "molecular_weight": 283.57
+    "molecular_weight": 283.57,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3663,9 +3738,10 @@
     "first_seen_line": 110,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
-    "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H7Br2ClO2S",
-    "molecular_weight": 362.47
+    "molecular_weight": 362.47,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3709,9 +3785,10 @@
     "first_seen_line": 289,
     "concentration_pct": null,
     "smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C14H10O4",
-    "molecular_weight": 242.23
+    "molecular_weight": 242.23,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3756,9 +3833,10 @@
     "first_seen_line": 250,
     "concentration_pct": null,
     "smiles": "ClCCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H4Cl2",
-    "molecular_weight": 98.96
+    "molecular_weight": 98.96,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3803,9 +3881,10 @@
     "first_seen_line": 291,
     "concentration_pct": null,
     "smiles": "ClC(Cl)(Cl)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CCl4",
-    "molecular_weight": 153.82
+    "molecular_weight": 153.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3848,9 +3927,10 @@
     "first_seen_line": 308,
     "concentration_pct": null,
     "smiles": "CCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H6O",
-    "molecular_weight": 46.07
+    "molecular_weight": 46.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3891,9 +3971,10 @@
     "first_seen_line": 120,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3937,9 +4018,10 @@
     "first_seen_line": 314,
     "concentration_pct": 60.0,
     "smiles": "[H-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNa",
-    "molecular_weight": 24.0
+    "molecular_weight": 24.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3983,9 +4065,10 @@
     "first_seen_line": 314,
     "concentration_pct": null,
     "smiles": "OCC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3F3O",
-    "molecular_weight": 100.04
+    "molecular_weight": 100.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4029,7 +4112,8 @@
     "smiles": "[Cl-].[Na+]",
     "smiles_source": "opsin",
     "molecular_formula": "ClNa",
-    "molecular_weight": 58.44
+    "molecular_weight": 58.44,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4071,9 +4155,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "[Cl][Pd][Cl]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "Cl2Pd",
-    "molecular_weight": 177.33
+    "molecular_weight": 177.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4159,9 +4244,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C11H10ClF3O5S",
-    "molecular_weight": 346.71
+    "molecular_weight": 346.71,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4204,9 +4290,10 @@
     "first_seen_line": 74,
     "concentration_pct": null,
     "smiles": "O=S(Cl)Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Cl2OS",
-    "molecular_weight": 118.97
+    "molecular_weight": 118.97,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4265,9 +4352,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C11H9Cl2F3O4S",
-    "molecular_weight": 365.16
+    "molecular_weight": 365.16,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4309,10 +4397,11 @@
     "compound_uuid": "d940ea25-abec-5789-86cb-52aa8a934bfb",
     "first_seen_line": 525,
     "concentration_pct": null,
-    "smiles": "CC(C)(C)PC(C)(C)C.CC(C)(C)PC(C)(C)C.[Cl][Pd][Cl]",
-    "smiles_source": "opsin",
-    "molecular_formula": "C16H38Cl2P2Pd",
-    "molecular_weight": 469.75
+    "smiles": null,
+    "smiles_source": null,
+    "molecular_formula": null,
+    "molecular_weight": null,
+    "smiles_null_reason": "neither reader indexes this palladium complex. The free ligand resolves, but it is a different substance from the complex."
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4401,9 +4490,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C17H16ClF3O6S",
-    "molecular_weight": 440.82
+    "molecular_weight": 440.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4446,7 +4536,8 @@
     "smiles": "[O]=[W](=[O])([O-])[O-]",
     "smiles_source": "pubchem",
     "molecular_formula": "O4W-2",
-    "molecular_weight": 247.84
+    "molecular_weight": 247.84,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4487,9 +4578,10 @@
     "first_seen_line": 266,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:unresolved",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "an oxoanion neither reader indexes, and the patent names no counter-ion. 'sodium metatungstate' resolves but is a different substance."
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4532,7 +4624,8 @@
     "smiles": "[O]=[V](=[O])[O-]",
     "smiles_source": "pubchem",
     "molecular_formula": "O3V-",
-    "molecular_weight": 98.94
+    "molecular_weight": 98.94,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4575,7 +4668,8 @@
     "smiles": "[O]=[V](=[O])[O-]",
     "smiles_source": "pubchem",
     "molecular_formula": "O3V-",
-    "molecular_weight": 98.94
+    "molecular_weight": 98.94,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4618,9 +4712,10 @@
     "first_seen_line": 289,
     "concentration_pct": null,
     "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C8H12N4",
-    "molecular_weight": 164.21
+    "molecular_weight": 164.21,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4663,9 +4758,10 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "[Na+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3NaO",
-    "molecular_weight": 122.02
+    "molecular_weight": 122.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4708,9 +4804,10 @@
     "first_seen_line": 124,
     "concentration_pct": null,
     "smiles": "[K+].[O-]CC(F)(F)F",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H2F3KO",
-    "molecular_weight": 138.13
+    "molecular_weight": 138.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4754,9 +4851,10 @@
     "first_seen_line": 310,
     "concentration_pct": null,
     "smiles": "CCOCC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H10O",
-    "molecular_weight": 74.12
+    "molecular_weight": 74.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4799,9 +4897,10 @@
     "first_seen_line": 314,
     "concentration_pct": null,
     "smiles": "[H-].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HK",
-    "molecular_weight": 40.11
+    "molecular_weight": 40.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4843,9 +4942,10 @@
     "first_seen_line": 314,
     "concentration_pct": null,
     "smiles": "C[O-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH3NaO",
-    "molecular_weight": 54.02
+    "molecular_weight": 54.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4887,9 +4987,10 @@
     "first_seen_line": 314,
     "concentration_pct": null,
     "smiles": "C[O-].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH3KO",
-    "molecular_weight": 70.13
+    "molecular_weight": 70.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4931,9 +5032,10 @@
     "first_seen_line": 314,
     "concentration_pct": null,
     "smiles": "[K+].[OH-]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HKO",
-    "molecular_weight": 56.11
+    "molecular_weight": 56.11,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4975,9 +5077,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "O=C([O-])[O-].[K+].[K+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CK2O3",
-    "molecular_weight": 138.2
+    "molecular_weight": 138.2,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5019,9 +5122,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "O=C([O-])[O-].[Na+].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CNa2O3",
-    "molecular_weight": 105.99
+    "molecular_weight": 105.99,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5063,9 +5167,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "O=C([O-])[O-].[Cs+].[Cs+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CCs2O3",
-    "molecular_weight": 325.82
+    "molecular_weight": 325.82,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5109,7 +5214,8 @@
     "smiles": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
     "smiles_source": "opsin",
     "molecular_formula": "K3O4P",
-    "molecular_weight": 212.26
+    "molecular_weight": 212.26,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5151,9 +5257,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "CC(=O)N(C)C",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H9NO",
-    "molecular_weight": 87.12
+    "molecular_weight": 87.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5195,9 +5302,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "CCN(C(C)C)C(C)C",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C8H19N",
-    "molecular_weight": 129.25
+    "molecular_weight": 129.25,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5240,9 +5348,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "C1CCC2=NCCCN2CC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C9H16N2",
-    "molecular_weight": 152.24
+    "molecular_weight": 152.24,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5285,9 +5394,10 @@
     "first_seen_line": 331,
     "concentration_pct": null,
     "smiles": "C1CN2CCN1CC2",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "C6H12N2",
-    "molecular_weight": 112.18
+    "molecular_weight": 112.18,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5328,9 +5438,10 @@
     "first_seen_line": 320,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5371,9 +5482,10 @@
     "first_seen_line": 348,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5414,9 +5526,10 @@
     "first_seen_line": 329,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5457,9 +5570,10 @@
     "first_seen_line": 325,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5500,9 +5614,10 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5543,9 +5658,10 @@
     "first_seen_line": 285,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5586,9 +5702,10 @@
     "first_seen_line": 260,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5629,9 +5746,10 @@
     "first_seen_line": 246,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5672,9 +5790,10 @@
     "first_seen_line": 337,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5716,9 +5835,10 @@
     "first_seen_line": 266,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class: the anion is not fixed"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5760,9 +5880,10 @@
     "first_seen_line": 266,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class: the anion is not fixed"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5804,9 +5925,10 @@
     "first_seen_line": 266,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class: the anion is not fixed"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5848,9 +5970,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class, and says so"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5891,10 +6014,11 @@
     "compound_uuid": "20c2230a-56e8-59c5-9839-35e3329b8f39",
     "first_seen_line": 333,
     "concentration_pct": null,
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CCCCCCCCS(=O)C(C)Cc1ccc2c(c1)OCO2",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C18H28O3S",
+    "molecular_weight": 324.49,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5935,10 +6059,11 @@
     "compound_uuid": "6ed5ef0d-b34a-563b-a225-bf61dffff08f",
     "first_seen_line": 333,
     "concentration_pct": null,
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CCOCC",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C4H10O",
+    "molecular_weight": 74.12,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5980,9 +6105,10 @@
     "first_seen_line": 333,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class, and says so"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -6023,9 +6149,10 @@
     "first_seen_line": 264,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -6066,9 +6193,10 @@
     "first_seen_line": 320,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -6109,9 +6237,10 @@
     "first_seen_line": 61,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a family"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -6152,9 +6281,10 @@
     "first_seen_line": 320,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -6195,8 +6325,9 @@
     "first_seen_line": 320,
     "concentration_pct": null,
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   }
 ]

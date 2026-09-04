@@ -145,9 +145,10 @@
       "Claims"
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
-    "smiles_source": "patent_scheme+patent_drawing+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C14H13NO7S",
-    "molecular_weight": 339.33
+    "molecular_weight": 339.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -270,9 +271,10 @@
       "Summary of the Invention"
     ],
     "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H9NO4S",
-    "molecular_weight": 215.23
+    "molecular_weight": 215.23,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -528,9 +530,10 @@
       "Summary of the Invention"
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H7NO6S",
-    "molecular_weight": 245.21
+    "molecular_weight": 245.21,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -602,9 +605,10 @@
       "Summary of the Invention"
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C8H6ClNO5S",
-    "molecular_weight": 263.66
+    "molecular_weight": 263.66,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -841,9 +845,10 @@
       "Summary of the Invention"
     ],
     "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
-    "smiles_source": "patent_scheme",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C14H13NO7S",
-    "molecular_weight": 339.33
+    "molecular_weight": 339.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -883,9 +888,10 @@
     "id": "WO2022024094A1_acetic acid",
     "compound_uuid": "9baeaf07-60a3-546a-827b-6e9bc1ca3be9",
     "smiles": "CC(=O)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H4O2",
-    "molecular_weight": 60.05
+    "molecular_weight": 60.05,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -924,9 +930,10 @@
     "id": "WO2022024094A1_Sodium acetate",
     "compound_uuid": "74ab20e4-1e8b-5792-b750-4a2db2e3cab7",
     "smiles": "CC(=O)[O-].[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H3NaO2",
-    "molecular_weight": 82.03
+    "molecular_weight": 82.03,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -965,9 +972,10 @@
     "id": "WO2022024094A1_cobalt(II) acetate tetra hydrate",
     "compound_uuid": "354345f9-f89c-513b-9846-c8f43137a011",
     "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.O.O.[Co+2]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H14CoO8",
-    "molecular_weight": 249.08
+    "molecular_weight": 249.08,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1008,9 +1016,10 @@
     "id": "WO2022024094A1_sulfuric acid",
     "compound_uuid": "95810d09-82fc-5c9b-99ca-1dd2260a5876",
     "smiles": "O=S(=O)(O)O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O4S",
-    "molecular_weight": 98.08
+    "molecular_weight": 98.08,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1050,9 +1059,10 @@
     "id": "WO2022024094A1_nitric acid",
     "compound_uuid": "4a17ff83-05b3-5a2b-b36f-5956d8087ec0",
     "smiles": "O=[N+]([O-])O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HNO3",
-    "molecular_weight": 63.01
+    "molecular_weight": 63.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1091,10 +1101,11 @@
     "notes": "Stated catalyst of the oxidation in [007], [008] and [009]. One record merged from the prose name three times, the title case 'Vanadium Pentoxide' on the arrows at lines 79 and 83, and the formula 'V2O5' on the arrow at line 90. Two drawing versus prose disagreements sit on these same arrows and neither is resolved here. First, [007] offers 'vanadium or cobalt compounds' as the catalyst class while the scheme at line 79 prints only Vanadium Pentoxide, dropping the cobalt option the prose allows. Second, the schemes carry temperatures that the prose never states anywhere in this section: '145 degree-C' at line 79, and '140-150 degree-C' at lines 83 and 90.",
     "id": "WO2022024094A1_vanadium pentoxide",
     "compound_uuid": "2b35d388-7d80-5d80-8b35-0d260b519225",
-    "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
-    "smiles_source": "pubchem",
+    "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+    "smiles_source": "opsin",
     "molecular_formula": "O5V2",
-    "molecular_weight": 181.88
+    "molecular_weight": 181.88,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1133,7 +1144,8 @@
     "smiles": "O=O",
     "smiles_source": "pubchem",
     "molecular_formula": "O2",
-    "molecular_weight": 32.0
+    "molecular_weight": 32.0,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1249,9 +1261,10 @@
       "Summary of the Invention"
     ],
     "smiles": "O=C1CCCC(=O)C1",
-    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "smiles_source": "identifier_name",
     "molecular_formula": "C6H8O2",
-    "molecular_weight": 112.13
+    "molecular_weight": 112.13,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1371,9 +1384,10 @@
       "text": "the ruthenium oxide is an insoluble solid present in substantially the same amount as initially so it can be filtered off and reused (for >50 conversion), even without treatment, in another cycle"
     },
     "smiles": "[O]=[Ru]=[O]",
-    "smiles_source": "curated+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "O2Ru",
-    "molecular_weight": 133.07
+    "molecular_weight": 133.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1476,9 +1490,10 @@
       "source_line": 194
     },
     "smiles": "[Na+].[O-]Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "ClNaO",
-    "molecular_weight": 74.44
+    "molecular_weight": 74.44,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1583,9 +1598,10 @@
       "Example 6"
     ],
     "smiles": "C(=NC1CCCCC1)=NC1CCCCC1",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C13H22N2",
-    "molecular_weight": 206.33
+    "molecular_weight": 206.33,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1656,9 +1672,10 @@
       "Example 7"
     ],
     "smiles": "[C-]#N.[Na+]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CNNa",
-    "molecular_weight": 49.01
+    "molecular_weight": 49.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1812,9 +1829,10 @@
       }
     ],
     "smiles": "ClCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "CH2Cl2",
-    "molecular_weight": 84.93
+    "molecular_weight": 84.93,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1871,9 +1889,10 @@
       "Detailed Description of the Invention"
     ],
     "smiles": "ClCCCl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H4Cl2",
-    "molecular_weight": 98.96
+    "molecular_weight": 98.96,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1928,9 +1947,10 @@
       "Detailed Description of the Invention"
     ],
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: the patent does not say which isomer"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1985,9 +2005,10 @@
       "Detailed Description of the Invention"
     ],
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: the patent does not say which isomer"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2041,10 +2062,11 @@
       "Claims",
       "Detailed Description of the Invention"
     ],
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CCCCC(Cl)Cl",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C5H10Cl2",
+    "molecular_weight": 141.04,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2084,9 +2106,10 @@
     "id": "WO2022024094A1_alkali metal hypochlorite",
     "compound_uuid": "579df53e-8119-51c4-8088-4c391d91f2e6",
     "smiles": "[O-]Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "ClO-",
-    "molecular_weight": 51.45
+    "molecular_weight": 51.45,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2123,9 +2146,10 @@
     "id": "WO2022024094A1_hydrogen peroxide",
     "compound_uuid": "2ef2c503-f14f-506a-a471-4e3ccd21d84f",
     "smiles": "OO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O2",
-    "molecular_weight": 34.01
+    "molecular_weight": 34.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2162,9 +2186,10 @@
     "id": "WO2022024094A1_ruthenate",
     "compound_uuid": "8a161e3d-874a-52fa-ae09-7a0e7502bef0",
     "smiles": null,
-    "smiles_source": "none:unresolved",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "an oxoanion neither reader indexes, and the patent names no counter-ion. Adding one would make a different substance."
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2203,7 +2228,8 @@
     "smiles": "[O]=[Ru](=[O])(=[O])[O-]",
     "smiles_source": "opsin",
     "molecular_formula": "O4Ru-",
-    "molecular_weight": 165.07
+    "molecular_weight": 165.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2240,9 +2266,10 @@
     "id": "WO2022024094A1_ruthenium tetroxide",
     "compound_uuid": "792d5d41-3d99-59b1-909a-7f7baa51bebf",
     "smiles": "[O]=[Ru](=[O])(=[O])=[O]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "O4Ru",
-    "molecular_weight": 165.07
+    "molecular_weight": 165.07,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2279,9 +2306,10 @@
     "id": "WO2022024094A1_ruthenium dioxide hydrate",
     "compound_uuid": "b36be6f8-67ed-57f8-ba52-d7679e9f51e3",
     "smiles": "O.[O]=[Ru]=[O]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O3Ru",
-    "molecular_weight": 151.08
+    "molecular_weight": 151.08,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2318,9 +2346,10 @@
     "id": "WO2022024094A1_ruthenium trichloride",
     "compound_uuid": "b143c299-b556-584d-9ce4-2d4e62b3ea58",
     "smiles": "[Cl][Ru]([Cl])[Cl]",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "Cl3Ru",
-    "molecular_weight": 207.43
+    "molecular_weight": 207.43,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2360,10 +2389,11 @@
     "notes": "Named once, in the continuation of [0034] at line 192, as purged into the aqueous caustic solution in which RuO2 is formed in situ from ruthenium trichloride. The text prints 'chlorine gas'; the identifier keeps the compound name and the state word is recorded as physical_form and kept as an alias. Role recorded as reagent because the section states no function for it; it is not called an oxidant anywhere. Prose only, and it belongs to the in situ catalyst preparation, not to any of the three numbered steps.",
     "id": "WO2022024094A1_chlorine",
     "compound_uuid": "4e46ca4d-be76-59f9-a29f-3cf384a7aa50",
-    "smiles": "ClCl",
-    "smiles_source": "pubchem",
-    "molecular_formula": "Cl2",
-    "molecular_weight": 70.91
+    "smiles": "[Cl]",
+    "smiles_source": "opsin",
+    "molecular_formula": "Cl",
+    "molecular_weight": 35.45,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2436,9 +2466,10 @@
       "Example 7"
     ],
     "smiles": "CCN(CC)CC",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H15N",
-    "molecular_weight": 101.19
+    "molecular_weight": 101.19,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2477,9 +2508,10 @@
     "id": "WO2022024094A1_N,N-diisopropylethylamine",
     "compound_uuid": "8c7eda97-8676-5756-a653-8cd25449038a",
     "smiles": "CCN(C(C)C)C(C)C",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C8H19N",
-    "molecular_weight": 129.25
+    "molecular_weight": 129.25,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2516,9 +2548,10 @@
     "id": "WO2022024094A1_N,N-diisopropylamine",
     "compound_uuid": "28ed3b6a-d47f-5927-919a-a2eed90030b2",
     "smiles": "CC(C)NC(C)C",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H15N",
-    "molecular_weight": 101.19
+    "molecular_weight": 101.19,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2555,9 +2588,10 @@
     "id": "WO2022024094A1_ethanolamine",
     "compound_uuid": "35a79f5b-c26d-5bef-86d4-f63862c161e1",
     "smiles": "NCCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C2H7NO",
-    "molecular_weight": 61.08
+    "molecular_weight": 61.08,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2594,9 +2628,10 @@
     "id": "WO2022024094A1_diethanolamine",
     "compound_uuid": "c84f11bc-f352-56c6-9bd3-7876680cbffe",
     "smiles": "OCCNCCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C4H11NO2",
-    "molecular_weight": 105.14
+    "molecular_weight": 105.14,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2633,9 +2668,10 @@
     "id": "WO2022024094A1_triethanolamine",
     "compound_uuid": "c605b894-9782-5539-9298-3bb308369042",
     "smiles": "OCCN(CCO)CCO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C6H15NO3",
-    "molecular_weight": 149.19
+    "molecular_weight": 149.19,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2672,9 +2708,10 @@
     "id": "WO2022024094A1_N-methylglucamine",
     "compound_uuid": "8c07708f-5bd1-5537-9971-31ece656d47a",
     "smiles": "CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "C7H17NO5",
-    "molecular_weight": 195.21
+    "molecular_weight": 195.21,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2762,9 +2799,10 @@
       "Example 3"
     ],
     "smiles": "Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HCl",
-    "molecular_weight": 36.46
+    "molecular_weight": 36.46,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2864,9 +2902,10 @@
       "Example 7"
     ],
     "smiles": "O",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "H2O",
-    "molecular_weight": 18.02
+    "molecular_weight": 18.02,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2916,9 +2955,10 @@
       }
     ],
     "smiles": "Cl",
-    "smiles_source": "opsin+pubchem",
+    "smiles_source": "opsin",
     "molecular_formula": "HCl",
-    "molecular_weight": 36.46
+    "molecular_weight": 36.46,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -2982,9 +3022,10 @@
       "Summary of the Invention"
     ],
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3041,9 +3082,10 @@
       "Detailed Description of the Invention"
     ],
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3107,9 +3149,10 @@
       "Detailed Description of the Invention"
     ],
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a role, not a molecule"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3146,10 +3189,11 @@
     "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0032] at line 183 offers 'alkali metal hypochlorite and peroxide such as hydrogen peroxide'. 'peroxide' is the class and hydrogen peroxide the instance the same sentence gives for it. The extraction deliberately excluded this word, and said so in the notes of the alkali metal hypochlorite record: 'The bare class word peroxide in the same sentence names no compound and is not recorded'. That reasoning is sound on its own terms and is overridden here only because the gold is required to carry the class nouns.",
     "id": "WO2022024094A1_peroxide",
     "compound_uuid": "ad67fed1-d492-5e6d-9b92-1d4100e4906f",
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "OO",
+    "smiles_source": "pubchem",
+    "molecular_formula": "H2O2",
+    "molecular_weight": 34.01,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3187,9 +3231,10 @@
     "id": "WO2022024094A1_a salt or an oxide",
     "compound_uuid": "d2468792-bc45-5f92-bf19-1d85ad414d4b",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names two classes, neither one molecule"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3227,9 +3272,10 @@
     "id": "WO2022024094A1_a cobalt salt",
     "compound_uuid": "a25231bb-1499-5e6f-a544-955925f9a99a",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "names a class: the anion is not stated"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3269,9 +3315,10 @@
     "id": "WO2022024094A1_vanadium or cobalt compounds",
     "compound_uuid": "223dd07b-79a6-5e13-9f0c-d755fc7f5e67",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names two classes"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3311,9 +3358,10 @@
     "id": "WO2022024094A1_the corresponding methylsulfonyl toluenes",
     "compound_uuid": "fb8ad108-8492-5919-83b0-a906cfdad81b",
     "smiles": null,
-    "smiles_source": "none:reference",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a family"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3351,9 +3399,10 @@
     "id": "WO2022024094A1_methyl sulfonyl benzoic acids",
     "compound_uuid": "4a3b200a-cd19-564e-b913-c390975ce70d",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a family"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3392,10 +3441,11 @@
     "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0034], across the page break at lines 187 and 192: the RuO2 catalyst 'can be formed in situ in a reaction commencing with ruthenium trichloride in an aqueous caustic solution containing starting material and purging chlorine gas'. 'Caustic' conventionally means sodium or potassium hydroxide, but the patent names NEITHER, so nothing was narrowed and resolved is false. This is the medium of the in-situ catalyst preparation recorded in reactions.json as Detailed Description of the Invention_Step 4.",
     "id": "WO2022024094A1_aqueous caustic solution",
     "compound_uuid": "12f95b03-9038-585e-8a29-b9b2183f04c4",
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "O=[N+]([O-])[O-].[Ag+]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "AgNO3",
+    "molecular_weight": 169.87,
+    "smiles_null_reason": null
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3435,9 +3485,10 @@
     "id": "WO2022024094A1_benzoylcyclohexane-1,3-dione herbicides",
     "compound_uuid": "b178db91-4cf3-534e-b7f5-07b0a0e7ec6a",
     "smiles": null,
-    "smiles_source": "none:class_name",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "plural: names a herbicide family"
   },
   {
     "patent_id": "WO2022024094A1",
@@ -3477,8 +3528,9 @@
     "id": "WO2022024094A1_4-hydroxyphenylpyruvate dioxygenase",
     "compound_uuid": "3e5c2d93-b973-514f-a043-91c9cbcd3a3c",
     "smiles": null,
-    "smiles_source": "none:polymer",
+    "smiles_source": null,
     "molecular_formula": null,
-    "molecular_weight": null
+    "molecular_weight": null,
+    "smiles_null_reason": "an enzyme, a protein: no single small-molecule structure"
   }
 ]
